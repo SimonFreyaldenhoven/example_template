@@ -4,12 +4,11 @@ import csv
 import random
 import os
 
-rng = np.random.default_rng(19095)
 random.seed(19095)
 
 #Script to be run
 def main():
-    outpath='../../datastore/marginal/simulation/' 
+    outpath='../../datastore/' 
     designpath='simulation/designs/'
 
     sim_designs = []
@@ -22,17 +21,21 @@ def main():
     return None
 
 #Main function
-def create_data(outpath):
+def create_data(designpath, outpath, cur_design):
     
-    df = []
+    param = pd.read_csv(designpath + cur_design + '.csv', 
+                        header=None, index_col=0).squeeze("columns").to_dict()
+    
+    data = []
 
-    for i in range(sample_size):
-        first_die = random.randint(1, no_faces)
-        second_die = random.randint(1, no_faces)
+    for i in range(param['sample_size']):
+        first_die = random.randint(1, param['no_faces'])
+        second_die = random.randint(1, param['no_faces'])
 
-        cur_roll = { "white": white, "black": black }
-        df.append(cur_roll)
+        cur_roll = { "roll": i+1, "first die": first_die, "second die": second_die }
+        data.append(cur_roll)
 
+    df= pd.DataFrame(data)
     df.to_csv(outpath + cur_design + '.csv', index=False)    
  
 ### Execute
