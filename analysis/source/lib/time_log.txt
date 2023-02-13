@@ -2,3 +2,5 @@ On 2023/02/13 07:49:34 it took 0.006057736666669674 minutes to run simulate_data
 On 2023/02/13 07:49:34 it took 0.005405813333330419 minutes to run summary_stats.py.
 On 2023/02/13 07:49:57 it took 0.004706323333334694 minutes to run simulate_data.py.
 On 2023/02/13 07:49:58 it took 0.004782435000000381 minutes to run summary_stats.py.
+On 2023/02/13 09:15:08 it took 0.008215759999999742 minutes to run simulate_data.py.
+On 2023/02/13 09:15:09 it took 0.004913306666655141 minutes to run summary_stats.py.

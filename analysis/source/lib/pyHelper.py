@@ -26,6 +26,9 @@ def run_script(file_name, folder="", absolute_path = os.path.dirname(__file__), 
         command = ["path/to/stata", "/e", "do", full_path]
     elif program == "Rscript" or program == "python3": 
         command = [program, full_path]
+    elif program == "matlab":
+        print('Matlab not yet supported') # TO DO
+        
         
     subprocess.call(command) 
 
