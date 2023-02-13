@@ -1,0 +1,10 @@
+On 2023/02/13 07:49:34 it took 0.006057736666669674 minutes to run simulate_data.py.
+On 2023/02/13 07:49:34 it took 0.005405813333330419 minutes to run summary_stats.py.
+On 2023/02/13 07:49:57 it took 0.004706323333334694 minutes to run simulate_data.py.
+On 2023/02/13 07:49:58 it took 0.004782435000000381 minutes to run summary_stats.py.
+On 2023/02/13 09:15:08 it took 0.008215759999999742 minutes to run simulate_data.py.
+On 2023/02/13 09:15:09 it took 0.004913306666655141 minutes to run summary_stats.py.
+On 2023/02/13 10:37:59 it took 0.007770451666662363 minutes to run simulate_data.py.
+On 2023/02/13 10:38:00 it took 0.0053709783333336725 minutes to run summary_stats.py.
+On 2023/02/13 10:38:22 it took 0.0048213366666459475 minutes to run simulate_data.py.
+On 2023/02/13 10:38:23 it took 0.005236739999994218 minutes to run summary_stats.py.
