@@ -22,6 +22,7 @@ datastore
 *.bbl
 *.blg
 *.asv
+*.pdfsync
 *converted-to.pdf
 *texput.log
 *.synctex(busy)

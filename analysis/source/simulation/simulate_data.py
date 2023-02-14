@@ -8,7 +8,7 @@ random.seed(19095)
 
 #Script to be run
 def main():
-    outpath='../../datastore/simulation' 
+    outpath='../../datastore/' 
     designpath='simulation/designs/'
 
     sim_designs = []
