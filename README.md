@@ -4,3 +4,6 @@ The is a simple repository designed to get familiar with Git and the coding prin
 
 See the [Wiki](https://github.com/SimonFreyaldenhoven/example_template/wiki) for a more detailed description and explanation.
 
+## To run
+
+Running `main.py` under analysis/source will do all the analysis. A brief latex note can be found under `/products/paper/` utilizing those results
