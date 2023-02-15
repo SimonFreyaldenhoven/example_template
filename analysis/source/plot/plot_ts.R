@@ -1,25 +1,37 @@
 pacman::p_load(tidyverse, here)
 
-data_path <- here("output", "estimation", "baseline", "freq_table.csv")
-out_path <- here("output", "estimation", "baseline", "hist.png")
+here::i_am("analysis.Rproj")
 
-# Set plotting theme
-theme_set(
-  theme_minimal() +
-    theme(
-      panel.grid.minor = element_blank(), 
-      panel.grid.major.x = element_blank()
+main <- function() {
+  data_path <- here("output", "estimation", "baseline", "freq_table.csv")
+  out_path <- here("output", "plot", "baseline", "hist.png") 
+  
+  plot_hist(data_path, out_path, "sum")
+  
+}
+
+plot_hist <- function(data_path, out_path, var_name){
+    # Set plotting theme
+    theme_set(
+      theme_minimal() +
+        theme(
+          panel.grid.minor = element_blank(), 
+          panel.grid.major.x = element_blank()
+        )
     )
-)
+  
+    df <- read_csv(data_path)
+  
+    plot <- df %>% 
+      ggplot(aes(.data[[var_name]], count)) +
+      geom_histogram(stat = "identity") +
+      labs(x = "", y = "")
+  
+    ggsave(plot = plot, filename = out_path, h = 5, w = 6)
+  
+}
 
-df <- read_csv(data_path)
 
-plot <- df %>% 
-  ggplot(aes(sum, count)) +
-  geom_histogram(stat = "identity") +
-  labs(x = "", y = "")
-
-
-ggsave(plot = plot, filename = out_path, h = 5, w = 6)
+main()
 
 
