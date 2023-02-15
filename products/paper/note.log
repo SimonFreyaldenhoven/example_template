@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.26)  14 FEB 2023 14:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.26)  15 FEB 2023 10:56
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -782,24 +782,24 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 (note.aux)
 \openout1 = `note.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count368
@@ -814,7 +814,7 @@ LaTeX Font Info:    ... okay on input line 80.
 \makeMPintoPDFobject=\count373
 \everyMPtoPDFconversion=\toks54
 )
-Package hyperref Info: Link coloring OFF on input line 80.
+Package hyperref Info: Link coloring OFF on input line 70.
  (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -827,9 +827,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count374
 )
-LaTeX Info: Redefining \ref on input line 80.
-LaTeX Info: Redefining \pageref on input line 80.
-LaTeX Info: Redefining \nameref on input line 80.
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
  (note.out) (note.out)
 \@outlinefile=\write4
 \openout4 = `note.out'.
@@ -887,24 +887,24 @@ Configuring pdfsync
 **** pdfsync.sty: Synchronizing at \everyvbox
 \PDFSYNCeveryvb@x=\toks58
 **** pdfsync.sty: started
-LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 83
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 73
 .
 
 (C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (4.60754pt too wide) in paragraph at lines 85--86
+Overfull \hbox (4.60754pt too wide) in paragraph at lines 75--76
 [][][]\OT1/cmr/m/n/10.95 This note il-lus-trates how a draft uses the out-put p
 ro-duced by the code un-der \OT1/cmtt/m/n/10.95 /analysis/ 
  []
@@ -933,19 +933,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.124 \end{document}
+l.114 \end{document}
                      [1] (note.aux)
 Package rerunfilecheck Info: File `note.out' has not changed.
 (rerunfilecheck)             Checksum: 8AA5224B33C10A6EAA3468759CEC16A0;129.
  ) 
 Here is how much of TeX's memory you used:
- 24108 strings out of 478582
- 418509 string characters out of 2854153
- 725878 words of memory out of 3000000
- 41886 multiletter control sequences out of 15000+600000
+ 24100 strings out of 478582
+ 418381 string characters out of 2854153
+ 725756 words of memory out of 3000000
+ 41878 multiletter control sequences out of 15000+600000
  477148 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,21n,117p,448b,406s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 69i,21n,117p,471b,406s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -961,7 +961,7 @@ n/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
 public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10
 .pfb>
-Output written on note.pdf (2 pages, 112885 bytes).
+Output written on note.pdf (2 pages, 112767 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)

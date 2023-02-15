@@ -1,4 +1,3 @@
-%
 \documentclass[12pt]{article}
 \usepackage[authoryear]{natbib}
 \usepackage[english]{babel}
@@ -35,20 +34,11 @@
 \usepackage[stable]{footmisc}
 \usepackage{pdfsync}
 
-\algtext*{EndWhile}% Remove "end while" text
-\algtext*{EndFor}
-\algtext*{EndIf}% Remove "end if" text
-\algnewcommand\algorithmicinput{\textbf{Input:}}
-\algnewcommand\INPUT{\item[\algorithmicinput]}
-\algnewcommand\algorithmicoutput{\textbf{Output:}}
-\algnewcommand\OUTPUT{\item[\algorithmicoutput]}
-
 \newcommand{\E}{E}
 %================================
 % PATH
 
 \graphicspath{{input/}{../../analysis/output/plot/}}
-
 
 \newtheorem{theorem}{Theorem}
 \newtheorem{fact}{Stylized Fact}
@@ -102,9 +92,9 @@ JEL-Classification: C..
 \begin{itemize}
 \item We use bibtex for references (e.g. \cite{Freyaldenhoven2019}). 
 
-\item Ideally all numbers should be softcoded, and come directly from output. For example, in our baseline simulations setup, where we simulate the throw of two 6-sided dice, the average sum of the two throws is equal to \input{../../analysis/output/estimation/baseline/mean_sum.txt}\unskip.
+\item Ideally all numbers should be softcoded, and come directly from output. For example, in our baseline simulations setup, where we simulate the throw of two 6-sided dice, the average sum of the two throws is equal to \input{../../analysis/output/estimation/baseline/mean_sum.txt}\unskip. That way all numbers are by construction always up-to-date.
 
-\item Below, Figure TBA includes a histogram of the simulation exercise
+\item Below, Figure TBA includes a histogram of the simulation exercise.
 \end{itemize}
 
 % \begin{figure}[tbh!]
