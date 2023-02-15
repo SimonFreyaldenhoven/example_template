@@ -20,6 +20,7 @@ def main():
     for cur_design in sim_designs:
         cur_data=pd.read_csv(datapath+cur_design+'.csv')
         create_freq_table_sum(cur_data, outpath, cur_design)
+        save_mean(cur_data, outpath, cur_design)
         
     return None
 
@@ -32,6 +33,15 @@ def create_freq_table_sum(cur_data, outpath, cur_design):
     freq_table=pd.crosstab(index=cur_data["sum"], columns="count")   
     
     freq_table.to_csv(outpath + cur_design + '/freq_table.csv', index=True)    
+    
+    return None
+
+def save_mean(cur_data, outpath, cur_design):
+    
+    mean_sum = np.mean(cur_data['first die'] + cur_data['second die'])
+    
+    with open(f'{outpath}/{cur_design}/mean_sum.txt', 'w') as f:
+        print("{:.2f}".format(mean_sum), file=f)
     
     return None
     
