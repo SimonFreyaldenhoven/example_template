@@ -27,3 +27,4 @@ datastore
 *texput.log
 *.synctex(busy)
 *.synctex
+.Rproj.user
