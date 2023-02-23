@@ -3,8 +3,15 @@ pacman::p_load(tidyverse, here)
 here::i_am("analysis.Rproj")
 
 main <- function() {
-  data_path <- here("output", "estimation", "baseline", "freq_table.csv")
-  out_path <- here("output", "plot", "baseline", "hist.png") 
+  data_folder <- here("output", "estimation", "baseline")
+  out_folder <- here("output", "plot", "baseline") 
+  folders <- c(data_folder, out_folder)
+  
+  # If folders don't exist, create them
+  walk(folders, dir.create) 
+  
+  data_path <- here(data_folder, "freq_table.csv")
+  out_path <- here(data_folder, "hist.png")
   
   plot_hist(data_path, out_path, "sum")
   
