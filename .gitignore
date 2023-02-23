@@ -1,5 +1,6 @@
 datastore/
 datastore
+**/__pycache__/
 
 *.pyc
 *.lyx~
