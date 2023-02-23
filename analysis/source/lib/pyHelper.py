@@ -2,6 +2,7 @@ import os
 import subprocess
 from timeit import default_timer as timer
 from datetime import datetime
+from pathlib import Path
 
 """
 run_script
@@ -16,7 +17,7 @@ args
 returns
     None
 """
-def run_script(script, folder, absolute_path = os. getcwd(), program = "python3", timelog = True):
+def run_script(script, folder, absolute_path = os.getcwd(), program = "python3", timelog = True, fresh_run=0):
 
     full_path = os.path.join(absolute_path, folder, script)
 
@@ -36,7 +37,7 @@ def run_script(script, folder, absolute_path = os. getcwd(), program = "python3"
 
     print(f"{elapsed} minutes to run {script}")
 
-    if timelog: write_time_log(elapsed, script = script, process = p)
+    if timelog: write_time_log(elapsed, script = script, process = p, fresh_run=fresh_run)
 
     return None
 
@@ -57,13 +58,13 @@ args
 returns
     None
 """
-def write_time_log(elapsed, script, process, log_name = "time_log.txt", absolute_path = os.path.dirname(__file__)):
+def write_time_log(elapsed, script, process, log_name = "time_log.txt", absolute_path = os.getcwd(), fresh_run=0):
 
     now = datetime.now()
     now_str = now.strftime("%Y/%m/%d %H:%M:%S") 
 
-    log_path = os.path.join(absolute_path, log_name)
-    opt = 'a' if(os.path.exists(log_path)) else 'w'
+    log_path=os.path.join( str(Path(absolute_path).parents[0]), 'output/', log_name)
+    opt = 'a' if(fresh_run==0) else 'w'
     
     # Get return status and error message of process
     failed = process.returncode > 0
