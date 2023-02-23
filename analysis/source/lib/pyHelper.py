@@ -16,31 +16,30 @@ args
 returns
     None
 """
-def run_script(file_name, folder="", absolute_path = os.path.dirname(__file__), program = "python3", timelog = True):
+def run_script(script, folder, absolute_path = os. getcwd(), program = "python3", timelog = True):
 
-    tic = timer()
+    full_path = os.path.join(absolute_path, folder, script)
 
-    full_path = os.path.join(absolute_path, folder, file_name)
-
-    if program=="stata":  # TO DO: allow for relative paths in do files
-        command = ["path/to/stata", "/e", "do", full_path]
+    if program == "stata":  
+        # Change path to where Stata is stored on machine 
+        # (does not need to be changed if running on any node of cluster)
+        path_to_stata = "/applications/stata17/stata-mp"
+        command = [path_to_stata, "do", full_path]
     elif program == "Rscript" or program == "python3": 
         command = [program, full_path]
-    elif program == "matlab":
-        print('Matlab not yet supported') # TO DO
-        
-        
-    subprocess.call(command) 
 
+    tic = timer()
+    p = subprocess.run(command, capture_output = True) 
     toc = timer()
+    
+    elapsed = round((toc - tic) / 60, 3)
 
-    # Print elapsed time
-    elapsed = (toc - tic) / 60
-    print('{0} minutes to run {1}.'.format(elapsed, file_name))  
+    print(f"{elapsed} minutes to run {script}")
 
-    if timelog: write_time_log(elapsed, script = file_name)
+    if timelog: write_time_log(elapsed, script = script, process = p)
 
     return None
+
 
 """
 write_time_log
@@ -52,19 +51,30 @@ to existing file.
 args
     elapsed (flt), time elapsed (calculated in run_script())
     script (str), name of file that was run
+    process (CompletedProcess object), from subprocess library contains attributes returncode and stderr which captures the errors from 
     log_name (str), desired name of time log txt file
     absolute_path (str), name of path to the source folder
 returns
     None
 """
-def write_time_log(elapsed, script, log_name = "time_log.txt", absolute_path = os.path.dirname(__file__)):
+def write_time_log(elapsed, script, process, log_name = "time_log.txt", absolute_path = os.path.dirname(__file__)):
 
     now = datetime.now()
     now_str = now.strftime("%Y/%m/%d %H:%M:%S") 
- 
+
     log_path = os.path.join(absolute_path, log_name)
     opt = 'a' if(os.path.exists(log_path)) else 'w'
-    with open(log_path, opt) as f:
-        f.write("On {0} it took {1} minutes to run {2}.\n".format(now_str, elapsed, script))
     
+    # Get return status and error message of process
+    failed = process.returncode > 0
+    error_msg = process.stderr
+
+    if(failed):
+        message = f"{script} ran for {elapsed} minutes but failed. Error: {error_msg}"
+    else:
+        message = f"{script} ran successfully in {elapsed} minutes."
+
+    with open(log_path, opt) as log:
+        log.write(f"On {now_str}, {message}\n\n")
+
     return None

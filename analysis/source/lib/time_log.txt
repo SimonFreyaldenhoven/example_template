@@ -10,3 +10,31 @@ On 2023/02/13 10:38:22 it took 0.0048213366666459475 minutes to run simulate_dat
 On 2023/02/13 10:38:23 it took 0.005236739999994218 minutes to run summary_stats.py.
 On 2023/02/15 15:41:10 it took 0.015828136666823412 minutes to run simulate_data.py.
 On 2023/02/15 15:41:11 it took 0.010173081666774426 minutes to run summary_stats.py.
+On 2023/02/23 15:32:21 it took 0.005282613333333333 minutes to run simulate_data.py.
+On 2023/02/23 15:32:22 it took 0.0042327166666666655 minutes to run summary_stats.py.
+On 2023/02/23 15:32:25 it took 0.04464428 minutes to run create_plots.R.
+On 2023/02/23 15:59:28 it took 0.005886483333333341 minutes to run simulate_data.py.
+On 2023/02/23 15:59:29 it took 0.005453354999999978 minutes to run summary_stats.py.
+On 2023/02/23 15:59:31 it took 0.033880488333333146 minutes to run create_plots.R.
+On 2023/02/23 16:04:33, simulate_data.py ran for 0.006 minutes but failed. Error: b"python3: can't open file 'C:\\Github\\example_template\\analysis\\source\\lib\\simulation\\simulate_data.py': [Errno 2] No such file or directory\n"
+
+On 2023/02/23 16:04:34, summary_stats.py ran for 0.006 minutes but failed. Error: b"python3: can't open file 'C:\\Github\\example_template\\analysis\\source\\lib\\estimation\\summary_stats.py': [Errno 2] No such file or directory\n"
+
+On 2023/02/23 16:04:36, create_plots.R ran for 0.038 minutes but failed. Error: b''
+
+On 2023/02/23 16:08:35, simulate_data.py ran successfully in 0.039 minutes.
+
+On 2023/02/23 16:08:37, summary_stats.py ran successfully in 0.047 minutes.
+
+On 2023/02/23 16:10:19, simulate_data.py ran successfully in 0.033 minutes.
+
+On 2023/02/23 16:10:22, summary_stats.py ran successfully in 0.044 minutes.
+
+On 2023/02/23 16:10:27, create_plots.R ran successfully in 0.082 minutes.
+
+On 2023/02/23 16:12:16, simulate_data.py ran successfully in 0.038 minutes.
+
+On 2023/02/23 16:12:18, summary_stats.py ran successfully in 0.045 minutes.
+
+On 2023/02/23 16:12:23, create_plots.R ran successfully in 0.078 minutes.
+

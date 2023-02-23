@@ -11,7 +11,7 @@ main <- function() {
   walk(folders, dir.create) 
   
   data_path <- here(data_folder, "freq_table.csv")
-  out_path <- here(data_folder, "hist.png")
+  out_path <- here(out_folder, "hist.png")
   
   plot_hist(data_path, out_path, "sum")
   
