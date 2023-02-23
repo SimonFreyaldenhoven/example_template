@@ -17,7 +17,7 @@ main <- function() {
   
 }
 
-plot_hist <- function(data_path, out_path, var_name){
+plot_hist <- function(data_path, out_path, var_name, height = 5, width = 6){
     # Set plotting theme
     theme_set(
       theme_minimal() +
@@ -34,7 +34,7 @@ plot_hist <- function(data_path, out_path, var_name){
       geom_histogram(stat = "identity") +
       labs(x = "", y = "")
   
-    ggsave(plot = plot, filename = out_path, h = 5, w = 6)
+    ggsave(plot = plot, filename = out_path, h = height, w = width)
   
 }
 
