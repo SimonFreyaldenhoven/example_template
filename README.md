@@ -6,4 +6,4 @@ See the [Wiki](https://github.com/SimonFreyaldenhoven/example_template/wiki) for
 
 ## To run
 
-Running `main.py` under analysis/source will do all the analysis. A brief latex note can be found under `/products/paper/` utilizing those results
+Running `main.py` under `analysis/source` from that directory will do all the analysis. A brief latex note can be found under `/products/paper/` utilizing those results
