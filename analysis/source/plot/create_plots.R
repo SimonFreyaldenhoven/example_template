@@ -7,7 +7,7 @@ main <- function() {
   design_path <- here("source", "designs_to_run.csv")
   
   # Import list of designs as a character vector by pulling the first column
-  designs <- read_csv(design_path, col_names = FALSE) %>% pull(1)
+  designs <- read_csv(design_path, show_col_types = FALSE, col_names = FALSE) %>% pull(1)
   data_folder <- here("output", "estimation")
   out_folder <- here("output", "plot") 
   
@@ -16,7 +16,7 @@ main <- function() {
     out_path <- here(out_folder, design)
     
     # If out_path doesn't exist, create it
-    dir.create(out_path)
+    dir.create(out_path, showWarnings = FALSE)
     
     plot_hist(data_path, out_path, "sum", "freq_table.csv", "hist.png")
   }
@@ -32,7 +32,7 @@ plot_hist <- function(data_path, out_path, var_name, in_file, out_file, height =
           panel.grid.major.x = element_blank()
         )
     )
-    df <- read_csv(here(data_path, in_file))
+    df <- read_csv(here(data_path, in_file),show_col_types = FALSE)
 
     plot <- df %>% 
       ggplot(aes(.data[[var_name]], count)) +
