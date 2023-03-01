@@ -94,15 +94,15 @@ JEL-Classification: C..
 
 \item Ideally all numbers should be softcoded, and come directly from output. For example, in our baseline simulations setup, where we simulate the throw of two 6-sided dice, the average sum of the two throws is equal to \input{../../analysis/output/estimation/baseline/mean_sum.txt}\unskip. That way all numbers are by construction always up-to-date.
 
-\item Below, Figure TBA includes a histogram of the simulation exercise.
+\item Below, Figure \ref{fig:hist_baseline} includes a histogram of the simulation exercise.
 \end{itemize}
 
-% \begin{figure}[tbh!]
-% \centering
-% \includegraphics[width=.8\linewidth]{TBA.png}
-% \caption{TBA}
-% \label{fig:hist}
-% \end{figure}
+\begin{figure}[tbh!]
+\centering
+\includegraphics[width=.8\linewidth]{baseline/hist.png}
+\caption[]{Numerical frequency for the sum of two six-sided die. Figure based on \input{../../analysis/output/estimation/baseline/sample_size.txt}throws.}
+\label{fig:hist_baseline}
+\end{figure}
 
 %=======================================================
 \bibliographystyle{plainnat}

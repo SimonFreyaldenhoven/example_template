@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.26)  15 FEB 2023 10:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.26)  1 MAR 2023 15:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -928,24 +928,34 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 <special> ps:0.8 setlinewidth 0 setgray
 {C:/Users/c1sxf04/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(../../analysis/output/estimation/baseline/mean_sum.txt) (note.bbl)
+(../../analysis/output/estimation/baseline/mean_sum.txt)
+<../../analysis/output/plot//baseline/hist.png, id=27, 433.62pt x 361.35pt>
+File: ../../analysis/output/plot//baseline/hist.png Graphic file (type png)
+<use ../../analysis/output/plot//baseline/hist.png>
+Package pdftex.def Info: ../../analysis/output/plot//baseline/hist.png  used on
+ input line 102.
+(pdftex.def)             Requested size: 375.80544pt x 313.18651pt.
+
+(../../analysis/output/estimation/baseline/sample_size.txt)
+(../../analysis/output/estimation/baseline/sample_size.txt) (note.bbl)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.114 \end{document}
-                     [1] (note.aux)
+                     [1 <../../analysis/output/plot//baseline/hist.png>]
+(note.aux)
 Package rerunfilecheck Info: File `note.out' has not changed.
 (rerunfilecheck)             Checksum: 8AA5224B33C10A6EAA3468759CEC16A0;129.
  ) 
 Here is how much of TeX's memory you used:
- 24100 strings out of 478582
- 418381 string characters out of 2854153
- 725756 words of memory out of 3000000
- 41878 multiletter control sequences out of 15000+600000
+ 24125 strings out of 478582
+ 419312 string characters out of 2854153
+ 725786 words of memory out of 3000000
+ 41894 multiletter control sequences out of 15000+600000
  477148 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,21n,117p,471b,406s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 69i,21n,117p,471b,489s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -961,9 +971,9 @@ n/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
 public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10
 .pfb>
-Output written on note.pdf (2 pages, 112767 bytes).
+Output written on note.pdf (2 pages, 151784 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
+ 14 words of extra memory for PDF output out of 10000 (max. 10000000)
 
