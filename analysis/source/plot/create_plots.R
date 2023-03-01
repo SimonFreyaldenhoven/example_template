@@ -3,21 +3,27 @@ pacman::p_load(tidyverse, here)
 here::i_am("analysis.Rproj")
 
 main <- function() {
-  data_folder <- here("output", "estimation", "baseline")
-  out_folder <- here("output", "plot", "baseline") 
-  folders <- c(data_folder, out_folder)
   
-  # If folders don't exist, create them
-  walk(folders, dir.create) 
+  design_path <- here("source", "designs_to_run.csv")
   
-  data_path <- here(data_folder, "freq_table.csv")
-  out_path <- here(out_folder, "hist.png")
+  # Import list of designs as a character vector by pulling the first column
+  designs <- read_csv(design_path, col_names = FALSE) %>% pull(1)
+  data_folder <- here("output", "estimation")
+  out_folder <- here("output", "plot") 
   
-  plot_hist(data_path, out_path, "sum")
+  for(design in designs){
+    data_path <- here(data_folder, design)
+    out_path <- here(out_folder, design)
+    
+    # If out_path doesn't exist, create it
+    dir.create(out_path)
+    
+    plot_hist(data_path, out_path, "sum", "freq_table.csv", "hist.png")
+  }
   
 }
 
-plot_hist <- function(data_path, out_path, var_name, height = 5, width = 6){
+plot_hist <- function(data_path, out_path, var_name, in_file, out_file, height = 5, width = 6){
     # Set plotting theme
     theme_set(
       theme_minimal() +
@@ -26,15 +32,14 @@ plot_hist <- function(data_path, out_path, var_name, height = 5, width = 6){
           panel.grid.major.x = element_blank()
         )
     )
-  
-    df <- read_csv(data_path)
-  
+    df <- read_csv(here(data_path, in_file))
+
     plot <- df %>% 
       ggplot(aes(.data[[var_name]], count)) +
       geom_histogram(stat = "identity") +
       labs(x = "", y = "")
   
-    ggsave(plot = plot, filename = out_path, h = height, w = width)
+    ggsave(plot = plot, filename = here(out_path, out_file), h = height, w = width)
   
 }
 
