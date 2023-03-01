@@ -1,5 +1,6 @@
 datastore/
 datastore
+**/__pycache__/
 
 *.pyc
 *.lyx~
@@ -27,3 +28,4 @@ datastore
 *texput.log
 *.synctex(busy)
 *.synctex
+.Rproj.user
