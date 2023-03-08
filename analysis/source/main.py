@@ -11,7 +11,7 @@ def main():
     
     run_script("summary_stats.py", "estimation")
     
-    run_script("create_plots.R", "plot", program = "Rscript")
+    #run_script("create_plots.R", "plot", program = "Rscript")
         
     return None
     
