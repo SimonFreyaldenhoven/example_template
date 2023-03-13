@@ -6,6 +6,6 @@ See the [Wiki](https://github.com/SimonFreyaldenhoven/example_template/wiki) for
 
 ## To run
 
-First, to allow your code to see the datastore folder , create a juncture link that points to the dropbox of associated with the repo (e.g. in Windows `mklink /J <location of this repo>\datastore\ <location of dropbox folder>\datastore`)
+First, to allow your code to see the datastore folder , create a juncture link that points to the dropbox associated with the repo (e.g. in Windows `mklink /J <location of this repo>\datastore\ <location of dropbox folder>\datastore`)
 
 Then, running `main.py` under `analysis/source` from that directory will do all the analysis. A brief latex note can be found under `/products/paper/` utilizing those results
