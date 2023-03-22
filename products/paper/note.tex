@@ -2,18 +2,19 @@
 \usepackage[authoryear]{natbib}
 \usepackage[english]{babel}
 \usepackage{amsmath,amssymb}
+\usepackage{ifthen}
 \usepackage{graphicx}
 \usepackage{amsthm}
 \usepackage{epstopdf}
-\usepackage{commath}
+%\usepackage{commath}
 \usepackage{hyperref}
 \usepackage{pstricks}
 \usepackage{mathrsfs}
-\usepackage{csquotes}
+%\usepackage{csquotes}
 \usepackage{amssymb}
 \usepackage{amsfonts}
 \usepackage{mathtools}
-\usepackage{makecell}
+%\usepackage{makecell}
 \usepackage{rotating}
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage{subcaption}
@@ -25,14 +26,14 @@
 \usepackage{enumitem}
 %\usepackage[en-US]{datetime2}
 \usepackage{color}
-\usepackage{csvsimple,booktabs}
+%\usepackage{csvsimple,booktabs}
 %\usepackage{booktabs} % For formal tables
-\usepackage{fullpage}
+%\usepackage{fullpage}
 %\usepackage[ruled,vlined]{algorithm2e}
-\usepackage{algorithm}
-\usepackage{algpseudocode}
-\usepackage[stable]{footmisc}
-\usepackage{pdfsync}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}
+%\usepackage[stable]{footmisc}
+%\usepackage{pdfsync}
 
 \newcommand{\E}{E}
 %================================
@@ -96,7 +97,6 @@ JEL-Classification: C..
 
 \item Below, Figure \ref{fig:hist_baseline} includes a histogram of the simulation exercise.
 \end{itemize}
-
 \begin{figure}[tbh!]
 \centering
 \includegraphics[width=.8\linewidth]{baseline/hist.png}
@@ -104,6 +104,13 @@ JEL-Classification: C..
 \label{fig:hist_baseline}
 \end{figure}
 
+We also include a second simulation for an 8-sided dice, where the average sum of the two throws is equal to \input{../../analysis/output/estimation/500_8/mean_sum.txt}\unskip. The corresponding histogram is depicted in Figure \ref{fig:hist_500_8} 
+\begin{figure}[tbh!]
+\centering
+\includegraphics[width=.8\linewidth]{500_8/hist.png}
+\caption[]{Numerical frequency for the sum of two eight-sided die. Figure based on \input{../../analysis/output/estimation/500_8/sample_size.txt}throws.}
+\label{fig:hist_500_8}
+\end{figure}
 %=======================================================
 \bibliographystyle{plainnat}
 \bibliography{example}

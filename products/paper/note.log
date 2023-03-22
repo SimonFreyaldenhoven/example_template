@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.26)  1 MAR 2023 15:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.26)  20 MAR 2023 19:04
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -125,6 +125,9 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
 (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -206,10 +209,6 @@ G,.JBIG2,.JB2,.eps]
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )))
-(C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/commath\commath.sty
-(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-))
 (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
 
@@ -495,50 +494,26 @@ File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
-(C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.sty
-Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-
-(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count316
-)
-\csq@reset=\count317
-\csq@gtype=\count318
-\csq@glevel=\count319
-\csq@qlevel=\count320
-\csq@maxlvl=\count321
-\csq@tshold=\count322
-\csq@ltx@everypar=\toks42
-
-(C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.def
-File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
-)
-Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
-Package csquotes Info: ... configuration file loaded successfully.
-
-(C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.cfg
-File: csquotes.cfg 
-))
 (C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
 
 (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count323
-\calc@Bcount=\count324
+\calc@Acount=\count316
+\calc@Bcount=\count317
 \calc@Adimen=\dimen195
 \calc@Bdimen=\dimen196
 \calc@Askip=\skip58
 \calc@Bskip=\skip59
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count325
+\calc@Ccount=\count318
 \calc@Cskip=\skip60
 )
 (C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count326
+\g_MT_multlinerow_int=\count319
 \l_MT_multwidth_dim=\dimen197
 \origjot=\skip61
 \l_MT_shortvdotswithinadjustabove_dim=\dimen198
@@ -550,55 +525,38 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \xmathstrut@box=\box56
 \xmathstrut@dim=\dimen260
 )
-(C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/makecell\makecell.sty
-Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-
-(C:\Program Files\MiKTeX\tex/latex/tools\array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen261
-\ar@mcellbox=\box57
-\extrarowheight=\dimen262
-\NC@list=\toks43
-\extratabsurround=\skip62
-\backup@length=\skip63
-\ar@cellbox=\box58
-)
-\rotheadsize=\dimen263
-\c@nlinenum=\count327
-\TeXr@lab=\toks44
-)
 (C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count328
-\rotFPtop=\skip64
-\rotFPbot=\skip65
-\rot@float@box=\box59
-\rot@mess@toks=\toks45
+\c@r@tfl@t=\count320
+\rotFPtop=\skip62
+\rotFPbot=\skip63
+\rot@float@box=\box57
+\rot@mess@toks=\toks42
 )
 (C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
 (C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen264
-\captionmargin=\dimen265
-\caption@leftmargin=\dimen266
-\caption@rightmargin=\dimen267
-\caption@width=\dimen268
-\caption@indent=\dimen269
-\caption@parindent=\dimen270
-\caption@hangindent=\dimen271
+\caption@tempdima=\dimen261
+\captionmargin=\dimen262
+\caption@leftmargin=\dimen263
+\caption@rightmargin=\dimen264
+\caption@width=\dimen265
+\caption@indent=\dimen266
+\caption@parindent=\dimen267
+\caption@hangindent=\dimen268
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count329
-\c@continuedfloat=\count330
+\c@caption@flags=\count321
+\c@continuedfloat=\count322
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 )
 (C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
-\c@subfigure=\count331
-\c@subtable=\count332
+\c@subfigure=\count323
+\c@subtable=\count324
 )
 (C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -606,18 +564,18 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count333
-\Gm@cntv=\count334
-\c@Gm@tempcnt=\count335
-\Gm@bindingoffset=\dimen272
-\Gm@wd@mp=\dimen273
-\Gm@odd@mp=\dimen274
-\Gm@even@mp=\dimen275
-\Gm@layoutwidth=\dimen276
-\Gm@layoutheight=\dimen277
-\Gm@layouthoffset=\dimen278
-\Gm@layoutvoffset=\dimen279
-\Gm@dimlist=\toks46
+\Gm@cnth=\count325
+\Gm@cntv=\count326
+\c@Gm@tempcnt=\count327
+\Gm@bindingoffset=\dimen269
+\Gm@wd@mp=\dimen270
+\Gm@odd@mp=\dimen271
+\Gm@even@mp=\dimen272
+\Gm@layoutwidth=\dimen273
+\Gm@layoutheight=\dimen274
+\Gm@layouthoffset=\dimen275
+\Gm@layoutvoffset=\dimen276
+\Gm@dimlist=\toks43
 
 (C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
@@ -628,193 +586,74 @@ Package: xr 2020-05-10 v5.06 eXternal References (DPC)
 )
 (C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip66
-\multirow@cntb=\count336
-\multirow@dima=\skip67
-\bigstrutjot=\dimen280
+\multirow@colwidth=\skip64
+\multirow@cntb=\count328
+\multirow@dima=\skip65
+\bigstrutjot=\dimen277
 )
 (C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip68
-\enit@outerparindent=\dimen281
-\enit@toks=\toks47
-\enit@inbox=\box60
-\enit@count@id=\count337
-\enitdp@description=\count338
+\labelindent=\skip66
+\enit@outerparindent=\dimen278
+\enit@toks=\toks44
+\enit@inbox=\box58
+\enit@count@id=\count329
+\enitdp@description=\count330
 )
-(C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/csvsimple\csvsimple.sty
-(C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2022-02-24 L3 programming layer (loader) 
+\c@theorem=\count331
+\c@fact=\count332
+\c@corollary=\count333
+\c@lemma=\count334
+\c@proposition=\count335
+\c@defn=\count336
+\c@step=\count337
+\c@remark=\count338
+\c@example-continued=\count339
+\c@example=\count340
+\c@assumption=\count341
+\c@cor=\count342
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count339
-\l__pdf_internal_box=\box61
-))
-Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
-)
-Package: csvsimple 2022/02/01 v2.3.0 LaTeX CSV file processing
-)
-(C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/csvsimple\csvsimple-legacy.s
-ty
-Package: csvsimple-legacy 2022/02/01 version 2.3.0 LaTeX2e CSV file processing
- (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks48
-\pgfutil@tempdima=\dimen282
-\pgfutil@tempdimb=\dimen283
-
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex))
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box62
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
-))
-(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex))
-(C:\Program Files\MiKTeX\tex/latex/tools\shellesc.sty
-Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
-Package shellesc Info: Unrestricted shell escape enabled on input line 75.
-)
-\csv@file=\read3
-\c@csvinputline=\count340
-\c@csvrow=\count341
-\c@csvcol=\count342
-\csv@out=\write3
-)
-(C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen284
-\lightrulewidth=\dimen285
-\cmidrulewidth=\dimen286
-\belowrulesep=\dimen287
-\belowbottomsep=\dimen288
-\aboverulesep=\dimen289
-\abovetopsep=\dimen290
-\cmidrulesep=\dimen291
-\cmidrulekern=\dimen292
-\defaultaddspace=\dimen293
-\@cmidla=\count343
-\@cmidlb=\count344
-\@aboverulesep=\dimen294
-\@belowrulesep=\dimen295
-\@thisruleclass=\count345
-\@lastruleclass=\count346
-\@thisrulewidth=\dimen296
-)
-(C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/preprint\fullpage.sty
-Package: fullpage 1999/02/23 1.1 (PWD)
-\FP@margin=\skip69
-)
-(C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/algorithms\algorithm.sty
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
-
-(C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count347
-\float@exts=\toks49
-\float@box=\box63
-\@float@everytoks=\toks50
-\@floatcapt=\box64
-)
-\@float@every@algorithm=\toks51
-\c@algorithm=\count348
-)
-(C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/algorithmicx\algpseudocode.s
-ty
-Package: algpseudocode 
-
-(C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/algorithmicx\algorithmicx.st
-y
-Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
-
-Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count349
-\c@ALG@rem=\count350
-\c@ALG@nested=\count351
-\ALG@tlm=\skip70
-\ALG@thistlm=\skip71
-\c@ALG@Lnr=\count352
-\c@ALG@blocknr=\count353
-\c@ALG@storecount=\count354
-\c@ALG@tmpcounter=\count355
-\ALG@tmplength=\skip72
-)
-Document Style - pseudocode environments for use with the `algorithmicx' style
-) (C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/footmisc\footmisc.sty
-Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
-\FN@temptoken=\toks52
-\footnotemargin=\dimen297
-\@outputbox@depth=\dimen298
-Package footmisc Info: Declaring symbol style bringhurst on input line 695.
-Package footmisc Info: Declaring symbol style chicago on input line 703.
-Package footmisc Info: Declaring symbol style wiley on input line 712.
-Package footmisc Info: Declaring symbol style lamport-robust on input line 723.
-
-Package footmisc Info: Declaring symbol style lamport* on input line 743.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 764
-.
-)
-(C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/pdfsync\pdfsync.sty
-Package: pdfsync 2008/01/26 v1.1
-)
-\c@theorem=\count356
-\c@fact=\count357
-\c@corollary=\count358
-\c@lemma=\count359
-\c@proposition=\count360
-\c@defn=\count361
-\c@step=\count362
-\c@remark=\count363
-\c@example-continued=\count364
-\c@example=\count365
-\c@assumption=\count366
-\c@cor=\count367
-Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... found 'babel' package.
-Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'english'.
-
-(note.aux)
+\l__color_backend_stack_int=\count343
+\l__pdf_internal_box=\box59
+) (note.aux)
 \openout1 = `note.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
- (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count368
-\scratchdimen=\dimen299
-\scratchbox=\box65
-\nofMPsegments=\count369
-\nofMParguments=\count370
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count371
-\MPscratchDim=\dimen300
-\MPnumerator=\count372
-\makeMPintoPDFobject=\count373
-\everyMPtoPDFconversion=\toks54
+\scratchcounter=\count344
+\scratchdimen=\dimen279
+\scratchbox=\box60
+\nofMPsegments=\count345
+\nofMParguments=\count346
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count347
+\MPscratchDim=\dimen280
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
+\everyMPtoPDFconversion=\toks46
 )
-Package hyperref Info: Link coloring OFF on input line 70.
+Package hyperref Info: Link coloring OFF on input line 71.
  (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -825,17 +664,16 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ing.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count374
+\c@section@level=\count350
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
  (note.out) (note.out)
-\@outlinefile=\write4
-\openout4 = `note.out'.
+\@outlinefile=\write3
+\openout3 = `note.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
@@ -850,13 +688,13 @@ Package caption Info: End \AtBeginDocument code.
 * v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=620.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=0.0pt
-* \headheight=0.0pt
-* \headsep=0.0pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
 * \marginparwidth=44.0pt
@@ -872,44 +710,23 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Configuring pdfsync
-\PDFSYNC@ut=\write5
-\openout5 = `note.pdfsync'.
-
-\PDFSYNCf@li@=\count375
-\PDFSYNC@rder=\count376
-**** pdfsync.sty: Synchronizing at \everypar
-\PDFSYNCeveryp@r=\toks55
-**** pdfsync.sty: Synchronizing at \everymath
-\PDFSYNCeverym@th=\toks56
-**** pdfsync.sty: Synchronizing at \everyhbox
-\PDFSYNCeveryhb@x=\toks57
-**** pdfsync.sty: Synchronizing at \everyvbox
-\PDFSYNCeveryvb@x=\toks58
-**** pdfsync.sty: started
-LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 73
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 74
 .
 
 (C:\Users\c1sxf04\AppData\Roaming\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-Overfull \hbox (4.60754pt too wide) in paragraph at lines 75--76
-[][][]\OT1/cmr/m/n/10.95 This note il-lus-trates how a draft uses the out-put p
-ro-duced by the code un-der \OT1/cmtt/m/n/10.95 /analysis/ 
- []
-
-[1
+) [1
 Non-PDF special ignored!
 <special> header=pstricks.pro
 Non-PDF special ignored!
@@ -929,51 +746,57 @@ Non-PDF special ignored!
 <special> ps:0.8 setlinewidth 0 setgray
 {C:/Users/c1sxf04/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 (../../analysis/output/estimation/baseline/mean_sum.txt)
-<../../analysis/output/plot//baseline/hist.png, id=27, 433.62pt x 361.35pt>
+<../../analysis/output/plot//baseline/hist.png, id=25, 433.62pt x 361.35pt>
 File: ../../analysis/output/plot//baseline/hist.png Graphic file (type png)
 <use ../../analysis/output/plot//baseline/hist.png>
 Package pdftex.def Info: ../../analysis/output/plot//baseline/hist.png  used on
  input line 102.
-(pdftex.def)             Requested size: 375.80544pt x 313.18651pt.
+(pdftex.def)             Requested size: 344.005pt x 286.68742pt.
 
 (../../analysis/output/estimation/baseline/sample_size.txt)
-(../../analysis/output/estimation/baseline/sample_size.txt) (note.bbl)
+(../../analysis/output/estimation/baseline/sample_size.txt)
+(../../analysis/output/estimation/500_8/mean_sum.txt)
+<../../analysis/output/plot//500_8/hist.png, id=27, 433.62pt x 361.35pt>
+File: ../../analysis/output/plot//500_8/hist.png Graphic file (type png)
+<use ../../analysis/output/plot//500_8/hist.png>
+Package pdftex.def Info: ../../analysis/output/plot//500_8/hist.png  used on in
+put line 110.
+(pdftex.def)             Requested size: 344.005pt x 286.68742pt.
+
+(../../analysis/output/estimation/500_8/sample_size.txt)
+(../../analysis/output/estimation/500_8/sample_size.txt) (note.bbl
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.114 \end{document}
-                     [1 <../../analysis/output/plot//baseline/hist.png>]
-(note.aux)
+l.14 
+      [1 <../../analysis/output/plot//baseline/hist.png>]) [2 <../../analysis/o
+utput/plot//500_8/hist.png>] (note.aux)
 Package rerunfilecheck Info: File `note.out' has not changed.
 (rerunfilecheck)             Checksum: 8AA5224B33C10A6EAA3468759CEC16A0;129.
  ) 
 Here is how much of TeX's memory you used:
- 24125 strings out of 478582
- 419312 string characters out of 2854153
- 725786 words of memory out of 3000000
- 41894 multiletter control sequences out of 15000+600000
+ 21253 strings out of 478582
+ 365808 string characters out of 2854153
+ 669220 words of memory out of 3000000
+ 39103 multiletter control sequences out of 15000+600000
  477148 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,21n,117p,471b,489s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
-, replaced by a fixed one
-
- <C:\Users\c1sxf04\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1200.pk> <C:\Users\c1sxf04\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
-600\tcrm0700.pk> <C:\Users\c1sxf04\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
-n/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program
- Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10
-.pfb>
-Output written on note.pdf (2 pages, 151784 bytes).
+ 69i,11n,117p,471b,465s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\c1sxf04\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
+rm1200.pk> <C:\Users\c1sxf04\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\tcrm0700.pk> <C:\Users\c1sxf04\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt
+10.pfb>
+Output written on note.pdf (3 pages, 186554 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 14 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 93 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 19 words of extra memory for PDF output out of 10000 (max. 10000000)
 

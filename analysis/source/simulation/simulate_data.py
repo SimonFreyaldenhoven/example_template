@@ -1,7 +1,6 @@
 import random
 import pandas as pd
 import csv
-import random
 import os
 
 random.seed(19095)
