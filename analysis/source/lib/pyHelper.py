@@ -29,8 +29,7 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python3",
     elif program == "Rscript" or program == "python3": 
         command = [program, full_path]
     elif program == 'matlab':
-        command = [program + f" -batch run('{full_path}')"]
-        #subprocess.call("matlab -batch lowdim_figures") (works from illustration)
+        command = program + f" -batch run('{full_path}')"
 
     tic = timer()
     p = subprocess.run(command, capture_output = True) 
