@@ -1,6 +1,6 @@
-On 2023/03/20 17:23:39, simulate_data.py ran successfully in 0.018 minutes.
+On 2023/04/05 09:45:04, simulate_data.py ran successfully in 0.069 minutes.
 
-On 2023/03/20 17:23:40, summary_stats.py ran successfully in 0.016 minutes.
+On 2023/04/05 09:45:05, summary_stats.py ran successfully in 0.027 minutes.
 
-On 2023/03/20 17:23:50, create_plots.R ran successfully in 0.168 minutes.
+On 2023/04/05 09:46:16, create_plots.R ran successfully in 1.175 minutes.
 
