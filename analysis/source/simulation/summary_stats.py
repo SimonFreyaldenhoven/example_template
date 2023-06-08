@@ -9,7 +9,7 @@ import csv
 
 #Script to be run
 def main():
-    outpath='../output/estimation/' 
+    outpath='../output/simulation/' 
     datapath='../../datastore/'
 
     sim_designs = []
