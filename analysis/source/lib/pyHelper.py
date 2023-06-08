@@ -26,6 +26,7 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python3",
         if os.path.isfile(absolute_path + '\lib\path_to_stata.txt'):
             with open(absolute_path +'\lib\path_to_stata.txt') as f:
                 path_to_stata = f.read()
+            #path_to_stata = "/applications/stata17/stata-mp" #Should look similar to this
             command = [path_to_stata, "do", full_path]
         else:
             print('Stata not found. Skipping this script in 20 seconds.')
@@ -34,9 +35,8 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python3",
             print('/applications/stata17/stata-mp on UNIX')
             print('C:/Program Files/Stata17/StataMP-64 on WIndows')
             time.sleep(20)
-        # Change path to where Stata is stored on machine 
-        # (does not need to be changed if running on any node of cluster)
-        #path_to_stata = "/applications/stata17/stata-mp"
+
+
 
 
     elif program == "Rscript" or program == "python3": 
