@@ -1,4 +1,4 @@
-import os
+import os, time
 import subprocess
 from timeit import default_timer as timer
 from datetime import datetime
@@ -22,12 +22,23 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python3",
     full_path = os.path.join(absolute_path, folder, script)
     
     if program == "stata":  
+        
+        if os.path.isfile(absolute_path + '\lib\path_to_stata.txt'):
+            with open(absolute_path +'\lib\path_to_stata.txt') as f:
+                path_to_stata = f.read()
+            command = [path_to_stata, "do", full_path]
+        else:
+            print('Stata not found. Skipping this script in 20 seconds.')
+            print('To Fix: add a file path_to_stata.txt to \lib\ that contains the path to your Stata Application')
+            print('Examples may be:')
+            print('/applications/stata17/stata-mp on UNIX')
+            print('C:/Program Files/Stata17/StataMP-64 on WIndows')
+            time.sleep(20)
         # Change path to where Stata is stored on machine 
         # (does not need to be changed if running on any node of cluster)
-        path_to_stata = "/applications/stata17/stata-mp"
-        path_to_stata = "C:/Program Files/Stata17/StataMP-64" #Simon's laptop
-        #Perhaps read in string that specifies location?
-        command = [path_to_stata, "do", full_path]
+        #path_to_stata = "/applications/stata17/stata-mp"
+
+
     elif program == "Rscript" or program == "python3": 
         command = [program, full_path]
     elif program == 'matlab':
