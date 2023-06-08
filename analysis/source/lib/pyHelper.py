@@ -25,6 +25,8 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python3",
         # Change path to where Stata is stored on machine 
         # (does not need to be changed if running on any node of cluster)
         path_to_stata = "/applications/stata17/stata-mp"
+        path_to_stata = "C:/Program Files/Stata17/StataMP-64" #Simon's laptop
+        #Perhaps read in string that specifies location?
         command = [path_to_stata, "do", full_path]
     elif program == "Rscript" or program == "python3": 
         command = [program, full_path]

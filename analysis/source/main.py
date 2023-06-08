@@ -7,7 +7,7 @@ def main():
     run_script("simulate_data.py", "simulation")
     run_script("summary_stats.py", "simulation")
 
-    #run_script("auto.do", "application", program = "stata")
+    run_script("auto.do", "application", program = "stata")
     
     run_script("create_plots.R", "plot", program = "Rscript")
         
