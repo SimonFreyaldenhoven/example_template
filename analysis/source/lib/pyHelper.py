@@ -20,7 +20,7 @@ returns
 def run_script(script, folder, absolute_path = os.getcwd(), program = "python3", timelog = True, fresh_run=0):
 
     full_path = os.path.join(absolute_path, folder, script)
-
+    
     if program == "stata":  
         # Change path to where Stata is stored on machine 
         # (does not need to be changed if running on any node of cluster)
@@ -28,6 +28,8 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python3",
         command = [path_to_stata, "do", full_path]
     elif program == "Rscript" or program == "python3": 
         command = [program, full_path]
+    elif program == 'matlab':
+        command = program + f" -batch run('{full_path}')"
 
     tic = timer()
     p = subprocess.run(command, capture_output = True) 

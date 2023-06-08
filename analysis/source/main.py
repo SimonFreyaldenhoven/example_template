@@ -2,12 +2,9 @@ from lib.pyHelper import run_script
 
 def main():
 
-    #run_script("intuition.m", "illustration", program= "matlab") #Not yet supported
-    #For future reference, the line below works if run from within \illustration.
-    #Note that relative paths may need to be updated within matlab
-    #subprocess.call("matlab -batch lowdim_figures")
+    run_script("lowdim_figures.m", "illustration", program= "matlab", fresh_run=1) 
 
-    run_script("simulate_data.py", "simulation", fresh_run=1)
+    run_script("simulate_data.py", "simulation")
     
     run_script("summary_stats.py", "estimation")
     
