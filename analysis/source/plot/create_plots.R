@@ -23,23 +23,24 @@ main <- function() {
   
 }
 
-plot_hist <- function(data_path, out_path, var_name, in_file, out_file, height = 5, width = 6){
-    # Set plotting theme
-    theme_set(
-      theme_minimal() +
-        theme(
-          panel.grid.minor = element_blank(), 
-          panel.grid.major.x = element_blank()
-        )
-    )
-    df <- read_csv(here(data_path, in_file),show_col_types = FALSE)
-
-    plot <- df %>% 
-      ggplot(aes(.data[[var_name]], count)) +
-      geom_histogram(stat = "identity") +
-      labs(x = "", y = "")
+plot_hist <- function(data_path, out_path, var_name, in_file, out_file, height = 4, width = 5){
+  # Set plotting theme
+  theme_set(
+    theme_minimal() +
+      theme(
+        panel.grid.minor = element_blank(), 
+        panel.grid.major.x = element_blank(),
+        axis.text = element_text(size = 16)
+      )
+  )
+  df <- read_csv(here(data_path, in_file),show_col_types = FALSE)
   
-    ggsave(plot = plot, filename = here(out_path, out_file), h = height, w = width)
+  plot <- df %>% 
+    ggplot(aes(.data[[var_name]], count)) +
+    geom_histogram(stat = "identity", fill = "cornflowerblue") +
+    labs(x = "", y = "")
+  
+  ggsave(plot = plot, filename = here(out_path, out_file), h = height, w = width)
   
 }
 
