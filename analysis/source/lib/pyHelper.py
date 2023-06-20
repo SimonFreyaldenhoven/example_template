@@ -20,8 +20,9 @@ returns
 def run_script(script, folder, absolute_path = os.getcwd(), program = "python", timelog = True, fresh_run=0):
 
     full_path = os.path.join(absolute_path, folder, script)
+    products_loc=os.path.join(Path(absolute_path).parent.parent, 'products')
     
-    if program == "Rscript" or program == "python" or program == "pdflatex": 
+    if program == "Rscript" or program == "python": 
         command = [program, full_path]
 
     elif program == "stata":  
@@ -41,12 +42,23 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python", 
     elif program == 'matlab':
         command = program + f" -batch run('{full_path}')"
 
-    tic = timer()
-    p = subprocess.run(command, capture_output = True) 
-    if program == "pdflatex":
-        p = subprocess.run(command, capture_output = True)  #second run to fix references
-    toc = timer()
-    
+
+    if  program != "pdflatex":
+        tic = timer()
+        p = subprocess.run(command, capture_output = True) 
+        toc = timer()
+    else: #traverse to products folder
+        tic = timer()
+        full_path = os.path.join(products_loc, folder, script)
+        os.chdir(os.path.join(products_loc, folder))
+        command = program +' '+ script
+        p = subprocess.run(command)
+        p = subprocess.run('bibtex note') # second part should be name of .tex file without extension 
+        p = subprocess.run(command) 
+        p = subprocess.run(command)
+        os.chdir(absolute_path)
+        toc = timer()
+        
     elapsed = round((toc - tic) / 60, 3)
 
     print(f"{elapsed} minutes to run {script}")
