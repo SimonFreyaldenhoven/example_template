@@ -53,7 +53,7 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python", 
         os.chdir(os.path.join(products_loc, folder))
         command = program +' '+ script
         p = subprocess.run(command)
-        p = subprocess.run('bibtex note') # second part should be name of .tex file without extension 
+        p = subprocess.run('bibtex ' + script.strip('.tex')) # .tex file without extension 
         p = subprocess.run(command) 
         p = subprocess.run(command)
         os.chdir(absolute_path)
