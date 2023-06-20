@@ -8,7 +8,7 @@ main <- function() {
   
   # Import list of designs as a character vector by pulling the first column
   designs <- read_csv(design_path, show_col_types = FALSE, col_names = FALSE) %>% pull(1)
-  data_folder <- here("output", "estimation")
+  data_folder <- here("output", "simulation")
   out_folder <- here("output", "plot") 
   
   for(design in designs){

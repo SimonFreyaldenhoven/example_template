@@ -29,3 +29,5 @@ datastore
 *.synctex(busy)
 *.synctex
 .Rproj.user
+
+/analysis/source/lib/path_to_stata.txt
