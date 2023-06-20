@@ -10,6 +10,10 @@ def main():
     run_script("auto.do", "application", program = "stata")
     
     run_script("create_plots.R", "plot", program = "Rscript")
+
+	run_script("note.tex", "../products/paper", program = "pdflatex")
+
+
         
     return None
     

@@ -21,8 +21,10 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python", 
 
     full_path = os.path.join(absolute_path, folder, script)
     
-    if program == "stata":  
-        
+    if program == "Rscript" or program == "python" or program == "pdflatex": 
+        command = [program, full_path]
+
+    elif program == "stata":  
         if os.path.isfile(absolute_path + '\lib\path_to_stata.txt'):
             with open(absolute_path +'\lib\path_to_stata.txt') as f:
                 path_to_stata = f.read()
@@ -36,16 +38,13 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python", 
             print('C:/Program Files/Stata17/StataMP-64 on WIndows')
             time.sleep(20)
 
-
-
-
-    elif program == "Rscript" or program == "python": 
-        command = [program, full_path]
     elif program == 'matlab':
         command = program + f" -batch run('{full_path}')"
 
     tic = timer()
     p = subprocess.run(command, capture_output = True) 
+    if program == "pdflatex":
+        p = subprocess.run(command, capture_output = True)  #second run to fix references
     toc = timer()
     
     elapsed = round((toc - tic) / 60, 3)
