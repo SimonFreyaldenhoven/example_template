@@ -17,7 +17,7 @@ args
 returns
     None
 """
-def run_script(script, folder, absolute_path = os.getcwd(), program = "python3", timelog = True, fresh_run=0):
+def run_script(script, folder, absolute_path = os.getcwd(), program = "python", timelog = True, fresh_run=0):
 
     full_path = os.path.join(absolute_path, folder, script)
     
@@ -39,7 +39,7 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python3",
 
 
 
-    elif program == "Rscript" or program == "python3": 
+    elif program == "Rscript" or program == "python": 
         command = [program, full_path]
     elif program == 'matlab':
         command = program + f" -batch run('{full_path}')"

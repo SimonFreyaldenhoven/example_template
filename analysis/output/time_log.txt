@@ -1,10 +1,10 @@
-On 2023/06/08 16:04:00, lowdim_figures.m ran successfully in 0.546 minutes.
+On 2023/06/20 11:10:19, lowdim_figures.m ran successfully in 0.472 minutes.
 
-On 2023/06/08 16:04:02, simulate_data.py ran successfully in 0.039 minutes.
+On 2023/06/20 11:10:21, simulate_data.py ran successfully in 0.038 minutes.
 
-On 2023/06/08 16:04:05, summary_stats.py ran successfully in 0.033 minutes.
+On 2023/06/20 11:10:24, summary_stats.py ran successfully in 0.058 minutes.
 
-On 2023/06/08 16:04:10, auto.do ran successfully in 0.085 minutes.
+On 2023/06/20 11:10:29, auto.do ran successfully in 0.067 minutes.
 
-On 2023/06/08 16:04:14, create_plots.R ran successfully in 0.069 minutes.
+On 2023/06/20 11:10:35, create_plots.R ran successfully in 0.099 minutes.
 
