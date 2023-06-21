@@ -1,7 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2023.4.11)  21 JUN 2023 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2023.4.11)  21 JUN 2023 13:57
 entering extended mode
-**./note.tex
-(note.tex
+**C:/Users/C1RAK01/Documents/Simon/GitHub/example_template/products/paper/note.
+tex
+
+(C:/Users/C1RAK01/Documents/Simon/GitHub/example_template/products/paper/note.t
+ex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2023-03-30>
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
@@ -443,7 +446,9 @@ ex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count302
 \l__pdf_internal_box=\box50
-) (note.aux)
+)
+(C:/Users/C1RAK01/Documents/Simon/GitHub/example_template/products/paper\note.a
+ux)
 \openout1 = `note.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
@@ -495,7 +500,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 71.
 LaTeX Info: Redefining \pageref on input line 71.
 LaTeX Info: Redefining \nameref on input line 71.
- (note.out) (note.out)
+
+(C:/Users/C1RAK01/Documents/Simon/GitHub/example_template/products/paper\note.o
+ut)
+(C:/Users/C1RAK01/Documents/Simon/GitHub/example_template/products/paper\note.o
+ut)
 \@outlinefile=\write3
 \openout3 = `note.out'.
 
@@ -559,7 +568,9 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 Package natbib Warning: Citation `Freyaldenhoven2019' on page 1 undefined on in
 put line 94.
 
-(../../analysis/output/simulation/baseline/mean_sum.txt)
+
+(C:/Users\C1RAK01\Documents\Simon\GitHub\example_template\analysis\output\simul
+ation\baseline\mean_sum.txt)
 <../../analysis/output/plot/baseline/hist.png, id=23, 433.62pt x 361.35pt>
 File: ../../analysis/output/plot/baseline/hist.png Graphic file (type png)
 <use ../../analysis/output/plot/baseline/hist.png>
@@ -567,9 +578,12 @@ Package pdftex.def Info: ../../analysis/output/plot/baseline/hist.png  used on
 input line 102.
 (pdftex.def)             Requested size: 344.005pt x 286.68742pt.
 
-(../../analysis/output/simulation/baseline/sample_size.txt)
-(../../analysis/output/simulation/baseline/sample_size.txt)
-(../../analysis/output/simulation/500_8/mean_sum.txt)
+(C:/Users\C1RAK01\Documents\Simon\GitHub\example_template\analysis\output\simul
+ation\baseline\sample_size.txt)
+(C:/Users\C1RAK01\Documents\Simon\GitHub\example_template\analysis\output\simul
+ation\baseline\sample_size.txt)
+(C:/Users\C1RAK01\Documents\Simon\GitHub\example_template\analysis\output\simul
+ation\500_8\mean_sum.txt)
 <../../analysis/output/plot/500_8/hist.png, id=26, 433.62pt x 361.35pt>
 File: ../../analysis/output/plot/500_8/hist.png Graphic file (type png)
 <use ../../analysis/output/plot/500_8/hist.png>
@@ -577,16 +591,23 @@ Package pdftex.def Info: ../../analysis/output/plot/500_8/hist.png  used on inp
 ut line 110.
 (pdftex.def)             Requested size: 344.005pt x 286.68742pt.
 
-(../../analysis/output/simulation/500_8/sample_size.txt)
-(../../analysis/output/simulation/500_8/sample_size.txt)
-<../../analysis/output/application/scatter.png, id=27, 1175.39125pt x 855.195pt
->
-File: ../../analysis/output/application/scatter.png Graphic file (type png)
-<use ../../analysis/output/application/scatter.png>
-Package pdftex.def Info: ../../analysis/output/application/scatter.png  used on
- input line 117.
-(pdftex.def)             Requested size: 344.005pt x 250.28381pt.
+(C:/Users\C1RAK01\Documents\Simon\GitHub\example_template\analysis\output\simul
+ation\500_8\sample_size.txt)
+(C:/Users\C1RAK01\Documents\Simon\GitHub\example_template\analysis\output\simul
+ation\500_8\sample_size.txt)
 
+LaTeX Warning: File `scatter.png' not found on input line 117.
+
+
+! Package pdftex.def Error: File `scatter.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 ...graphics[width=.8\linewidth]{scatter.png}
+                                                  
+? 
 No file note.bbl.
 
 Package natbib Warning: There were undefined citations.
@@ -597,9 +618,9 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.129 \end{document}
-                     [1 <../../analysis/output/plot/baseline/hist.png>]
-[2 <../../analysis/output/plot/500_8/hist.png>] [3 <../../analysis/output/appli
-cation/scatter.png (PNG copy)>]
+                     [1 <C:/Users/C1RAK01/Documents/Simon/GitHub/example_templa
+te/analysis/output/plot/baseline/hist.png>] [2 <C:/Users/C1RAK01/Documents/Simo
+n/GitHub/example_template/analysis/output/plot/500_8/hist.png>] [3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  (note.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
@@ -609,13 +630,13 @@ Package rerunfilecheck Info: File `note.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 10596 strings out of 478186
- 166563 string characters out of 2840847
+ 10626 strings out of 478186
+ 167372 string characters out of 2840847
  1949992 words of memory out of 3000000
- 28961 multiletter control sequences out of 15000+200000
- 519944 words of font info for 63 fonts, out of 3000000 for 9000
+ 28972 multiletter control sequences out of 15000+200000
+ 520113 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,43p,419b,382s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,11n,43p,489b,382s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\C1RAK01\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1200.pk> <C:\Users\C1RAK01\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknap
 pen/ec/dpi600\tcrm0700.pk> <C:\Users\C1RAK01\AppData\Local\MiKTeX\2.9\fonts/pk/
@@ -626,10 +647,11 @@ cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on note.pdf (4 pages, 230280 bytes).
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on note.pdf (4 pages, 186753 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
- 24 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 19 words of extra memory for PDF output out of 10000 (max. 10000000)
 
