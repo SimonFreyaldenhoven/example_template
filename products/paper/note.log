@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.26)  28 JUN 2023 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.26)  15 AUG 2023 10:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -597,10 +597,16 @@ ut line 110.
 
 (../../analysis/output/simulation/500_8/sample_size.txt)
 (../../analysis/output/simulation/500_8/sample_size.txt)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.115 \newpage
+               [1 <../../analysis/output/plot/baseline/hist.png>]
 File: ../../analysis/output/plot/baseline/hist.png Graphic file (type png)
 <use ../../analysis/output/plot/baseline/hist.png>
 Package pdftex.def Info: ../../analysis/output/plot/baseline/hist.png  used on 
-input line 121.
+input line 123.
 (pdftex.def)             Requested size: 172.00249pt x 143.33543pt.
 
 (../../analysis/output/simulation/baseline/sample_size.txt)
@@ -608,32 +614,25 @@ input line 121.
 File: ../../analysis/output/plot/500_8/hist.png Graphic file (type png)
 <use ../../analysis/output/plot/500_8/hist.png>
 Package pdftex.def Info: ../../analysis/output/plot/500_8/hist.png  used on inp
-ut line 128.
+ut line 130.
 (pdftex.def)             Requested size: 172.00249pt x 143.33543pt.
 
 (../../analysis/output/simulation/500_8/sample_size.txt)
 (../../analysis/output/simulation/500_8/sample_size.txt)
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 118--132
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 120--134
 [][] [] 
  []
 
-<../../analysis/output/application/scatter.png, id=28, 700.6175pt x 509.905pt>
+<../../analysis/output/application/scatter.png, id=36, 700.6175pt x 509.905pt>
 File: ../../analysis/output/application/scatter.png Graphic file (type png)
 <use ../../analysis/output/application/scatter.png>
 Package pdftex.def Info: ../../analysis/output/application/scatter.png  used on
- input line 141.
+ input line 143.
 (pdftex.def)             Requested size: 344.005pt x 250.36914pt.
 No file note.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.153 \end{document}
-                     [1 <../../analysis/output/plot/baseline/hist.png>]
 [2 <../../analysis/output/plot/500_8/hist.png>] [3 <../../analysis/output/appli
 cation/scatter.png (PNG copy)>] (note.aux)
 Package rerunfilecheck Info: File `note.out' has not changed.
@@ -642,7 +641,7 @@ Package rerunfilecheck Info: File `note.out' has not changed.
 Here is how much of TeX's memory you used:
  14658 strings out of 476410
  241571 string characters out of 5798922
- 1857845 words of memory out of 5000000
+ 1855845 words of memory out of 5000000
  34769 multiletter control sequences out of 15000+600000
  520444 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -658,7 +657,7 @@ eX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb>
-Output written on note.pdf (4 pages, 217156 bytes).
+Output written on note.pdf (4 pages, 216588 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)

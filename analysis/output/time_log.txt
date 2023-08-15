@@ -1,12 +1,12 @@
-On 2023/06/28 16:00:52, lowdim_figures.m ran successfully in 0.448 minutes.
+On 2023/08/15 10:57:32, lowdim_figures.m ran successfully in 0.423 minutes.
 
-On 2023/06/28 16:00:53, simulate_data.py ran for 0.002 minutes but failed. Error: b'Traceback (most recent call last):\r\n  File "C:\\Users\\C1CXL02\\Downloads\\example_template\\analysis\\source\\simulation\\simulate_data.py", line 2, in <module>\r\n    import pandas as pd\r\nModuleNotFoundError: No module named \'pandas\'\r\n'
+On 2023/08/15 10:57:34, simulate_data.py ran successfully in 0.027 minutes.
 
-On 2023/06/28 16:00:53, summary_stats.py ran for 0.003 minutes but failed. Error: b'Traceback (most recent call last):\r\n  File "C:\\Users\\C1CXL02\\Downloads\\example_template\\analysis\\source\\simulation\\summary_stats.py", line 4, in <module>\r\n    import numpy as np\r\nModuleNotFoundError: No module named \'numpy\'\r\n'
+On 2023/08/15 10:57:36, summary_stats.py ran successfully in 0.034 minutes.
 
-On 2023/06/28 16:00:56, auto.do ran successfully in 0.038 minutes.
+On 2023/08/15 10:57:39, auto.do ran successfully in 0.041 minutes.
 
-On 2023/06/28 16:00:59, create_plots.R ran successfully in 0.049 minutes.
+On 2023/08/15 10:57:43, create_plots.R ran successfully in 0.07 minutes.
 
-On 2023/06/28 16:01:07, note.tex ran successfully in 0.147 minutes.
+On 2023/08/15 10:57:49, note.tex ran successfully in 0.101 minutes.
 
