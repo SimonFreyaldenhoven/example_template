@@ -16,7 +16,6 @@ def main():
     with open('designs_to_run.csv', newline='') as inputfile:
         for row in csv.reader(inputfile):
             sim_designs.append(row[0])
-            print(row[0])
 
     for cur_design in sim_designs:
         cur_data=pd.read_csv(datapath+cur_design+'.csv')

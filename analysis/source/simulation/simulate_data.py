@@ -24,7 +24,6 @@ def create_data(designpath, outpath, cur_design):
     
     param = pd.read_csv(designpath + cur_design + '.csv', 
                         header=None, index_col=0).squeeze("columns").to_dict()
-    print(param)
     data = []
 
     for i in range(param['sample_size']):
