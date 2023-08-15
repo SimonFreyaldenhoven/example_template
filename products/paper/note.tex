@@ -112,6 +112,30 @@ We also include a second simulation for an 8-sided dice, where the average sum o
 \label{fig:hist_500_8}
 \end{figure}
 
+\newpage
+
+This is the figure with both as subplots. 
+
+\begin{figure}[tbh!]
+\begin{subfigure}{.5\textwidth}[tbh!]
+  \centering
+  % include first image
+  \includegraphics[width=.8\linewidth]{baseline/hist.png}  
+  \caption{Numerical frequency for the sum of two six-sided die. Figure based on \input{../../analysis/output/simulation/baseline/sample_size.txt}throws.}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}[tbh!]
+  \centering
+  % include second image
+  \includegraphics[width=.8\linewidth]{500_8/hist.png}  
+  \caption{Numerical frequency for the sum of two eight-sided die. Figure based on \input{../../analysis/output/simulation/500_8/sample_size.txt}throws.}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Combined plots of the simulations.}
+\label{fig:fig}
+\end{figure}
+
+
 Finally, we add a scatter plot from an exemplary do file in Stata in Figure \ref{fig:auto_scatter}.
 
 \begin{figure}[tbh!]
