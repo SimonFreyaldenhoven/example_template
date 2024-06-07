@@ -13,7 +13,7 @@ def main():
     datapath='../../datastore/'
 
     sim_designs = []
-    with open('designs_to_run.csv', newline='') as inputfile:
+    with open('lib/designs_to_run.csv', newline='') as inputfile:
         for row in csv.reader(inputfile):
             sim_designs.append(row[0])
 
