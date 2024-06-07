@@ -4,7 +4,7 @@ here::i_am("analysis.Rproj")
 
 main <- function() {
   
-  design_path <- here("source", "designs_to_run.csv")
+  design_path <- here("source", "lib", "designs_to_run.csv")
   
   # Import list of designs as a character vector by pulling the first column
   designs <- read_csv(design_path, show_col_types = FALSE, col_names = FALSE) %>% pull(1)

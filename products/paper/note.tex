@@ -39,7 +39,7 @@
 %================================
 % PATH
 
-\graphicspath{{input/}{../../analysis/output/plot/}{../../analysis/output/application/}}
+\graphicspath{{input/}{../../analysis/output}}
 
 \newtheorem{theorem}{Theorem}
 \newtheorem{fact}{Stylized Fact}
@@ -99,7 +99,7 @@ JEL-Classification: C..
 \end{itemize}
 \begin{figure}[tbh!]
 \centering
-\includegraphics[width=.8\linewidth]{baseline/hist.png}
+\includegraphics[width=.8\linewidth]{plot/baseline/hist.png}
 \caption[]{Numerical frequency for the sum of two six-sided die. Figure based on \input{../../analysis/output/simulation/baseline/sample_size.txt}throws.}
 \label{fig:hist_baseline}
 \end{figure}
@@ -107,7 +107,7 @@ JEL-Classification: C..
 We also include a second simulation for an 8-sided dice, where the average sum of the two throws is equal to \input{../../analysis/output/simulation/500_8/mean_sum.txt}\unskip. The corresponding histogram is depicted in Figure \ref{fig:hist_500_8} 
 \begin{figure}[tbh!]
 \centering
-\includegraphics[width=.8\linewidth]{500_8/hist.png}
+\includegraphics[width=.8\linewidth]{plot/500_8/hist.png}
 \caption[]{Numerical frequency for the sum of two eight-sided die. Figure based on \input{../../analysis/output/simulation/500_8/sample_size.txt}throws.}
 \label{fig:hist_500_8}
 \end{figure}
@@ -117,17 +117,17 @@ We also include a second simulation for an 8-sided dice, where the average sum o
 This is the figure with both as subplots. 
 
 \begin{figure}[tbh!]
-\begin{subfigure}{.5\textwidth}[tbh!]
+\begin{subfigure}{.5\textwidth}
   \centering
   % include first image
-  \includegraphics[width=.8\linewidth]{baseline/hist.png}  
+  \includegraphics[width=.8\linewidth]{plot/baseline/hist.png}  
   \caption{Numerical frequency for the sum of two six-sided die. Figure based on \input{../../analysis/output/simulation/baseline/sample_size.txt}throws.}
   \label{fig:sub-first}
 \end{subfigure}
-\begin{subfigure}{.5\textwidth}[tbh!]
+\begin{subfigure}{.5\textwidth}
   \centering
   % include second image
-  \includegraphics[width=.8\linewidth]{500_8/hist.png}  
+  \includegraphics[width=.8\linewidth]{plot/500_8/hist.png}  
   \caption{Numerical frequency for the sum of two eight-sided die. Figure based on \input{../../analysis/output/simulation/500_8/sample_size.txt}throws.}
   \label{fig:sub-second}
 \end{subfigure}
@@ -140,7 +140,7 @@ Finally, we add a scatter plot from an exemplary do file in Stata in Figure \ref
 
 \begin{figure}[tbh!]
 \centering
-\includegraphics[width=.8\linewidth]{scatter.png}
+\includegraphics[width=.8\linewidth]{application/scatter.png}
 \caption[]{Stata example}
 \label{fig:auto_scatter}
 \end{figure}
