@@ -2,6 +2,8 @@
 
 The is a simple repository designed to get familiar with Git and the coding principles we use.
 
+Please carefully read the [Wiki](https://github.com/SimonFreyaldenhoven/example_template/wiki) first.
+
 
 ## To run
 
