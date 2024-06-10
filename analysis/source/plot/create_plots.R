@@ -18,12 +18,13 @@ main <- function() {
     # If out_path doesn't exist, create it
     dir.create(out_path, showWarnings = FALSE)
     
-    plot_hist(data_path, out_path, "sum", "freq_table.csv", "hist.png")
+    plot_hist(data_path, out_path, "sum", "freq_table.csv", "hist.png", "blue")
+    plot_hist(data_path, out_path, "sum", "freq_table.csv", "hist_red.png", "red")
   }
   
 }
 
-plot_hist <- function(data_path, out_path, var_name, in_file, out_file, height = 5, width = 6){
+plot_hist <- function(data_path, out_path, var_name, in_file, out_file, fillcolor, height = 5, width = 6){
     # Set plotting theme
     theme_set(
       theme_minimal() +
@@ -36,7 +37,7 @@ plot_hist <- function(data_path, out_path, var_name, in_file, out_file, height =
 
     plot <- df %>% 
       ggplot(aes(.data[[var_name]], count)) +
-      geom_histogram(stat = "identity", fill="blue") +
+      geom_histogram(stat = "identity", fill=fillcolor) +
       labs(x = "", y = "")
   
     ggsave(plot = plot, filename = here(out_path, out_file), h = height, w = width)
