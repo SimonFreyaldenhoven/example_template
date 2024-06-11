@@ -43,7 +43,7 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python", 
         command = program + f" -batch run('{full_path}')"
 
 
-    if  program != "pdflatex":
+    if program != "pdflatex":
         tic = timer()
         p = subprocess.run(command, capture_output = True) 
         toc = timer()
@@ -53,7 +53,7 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python", 
         os.chdir(os.path.join(products_loc, folder))
         command = program +' '+ script
         p = subprocess.run(command)
-        p = subprocess.run('bibtex ' + script.strip('.tex')) # .tex file without extension 
+        p = subprocess.run('bibtex ' + script[:-4]) # remove .tex file extension 
         p = subprocess.run(command) 
         p = subprocess.run(command)
         os.chdir(absolute_path)
