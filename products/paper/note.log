@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.7)  10 JUN 2024 14:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.7)  11 JUN 2024 09:23
 entering extended mode
 **./note.tex
 (note.tex
@@ -562,12 +562,8 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
 {C:/Users/C1CSJ01/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-
-Package natbib Warning: Citation `Freyaldenhoven2019' on page 1 undefined on in
-put line 94.
-
 (../../analysis/output/simulation/baseline/mean_sum.txt)
-<../../analysis/output/plot/baseline/hist.png, id=23, 433.62pt x 361.35pt>
+<../../analysis/output/plot/baseline/hist.png, id=25, 433.62pt x 361.35pt>
 File: ../../analysis/output/plot/baseline/hist.png Graphic file (type png)
 <use ../../analysis/output/plot/baseline/hist.png>
 Package pdftex.def Info: ../../analysis/output/plot/baseline/hist.png  used on 
@@ -577,7 +573,7 @@ input line 102.
 (../../analysis/output/simulation/baseline/sample_size.txt)
 (../../analysis/output/simulation/baseline/sample_size.txt)
 (../../analysis/output/simulation/500_8/mean_sum.txt)
-<../../analysis/output/plot/500_8/hist.png, id=26, 433.62pt x 361.35pt>
+<../../analysis/output/plot/500_8/hist.png, id=28, 433.62pt x 361.35pt>
 File: ../../analysis/output/plot/500_8/hist.png Graphic file (type png)
 <use ../../analysis/output/plot/500_8/hist.png>
 Package pdftex.def Info: ../../analysis/output/plot/500_8/hist.png  used on inp
@@ -592,7 +588,7 @@ icate ignored
                    \relax 
 l.115 \newpage
                [1 <../../analysis/output/plot/baseline/hist.png>]
-<../../analysis/output/plot/baseline/hist_red.png, id=35, 433.62pt x 361.35pt>
+<../../analysis/output/plot/baseline/hist_red.png, id=39, 433.62pt x 361.35pt>
 File: ../../analysis/output/plot/baseline/hist_red.png Graphic file (type png)
 <use ../../analysis/output/plot/baseline/hist_red.png>
 Package pdftex.def Info: ../../analysis/output/plot/baseline/hist_red.png  used
@@ -601,7 +597,7 @@ Package pdftex.def Info: ../../analysis/output/plot/baseline/hist_red.png  used
 
 (../../analysis/output/simulation/baseline/sample_size.txt)
 (../../analysis/output/simulation/baseline/sample_size.txt)
-<../../analysis/output/plot/500_8/hist_red.png, id=36, 433.62pt x 361.35pt>
+<../../analysis/output/plot/500_8/hist_red.png, id=40, 433.62pt x 361.35pt>
 File: ../../analysis/output/plot/500_8/hist_red.png Graphic file (type png)
 <use ../../analysis/output/plot/500_8/hist_red.png>
 Package pdftex.def Info: ../../analysis/output/plot/500_8/hist_red.png  used on
@@ -614,29 +610,25 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 120--134
 []$[]$ $[]$ 
  []
 
-<../../analysis/output/application/scatter.png, id=38, 700.6175pt x 508.90125pt
+<../../analysis/output/application/scatter.png, id=42, 700.6175pt x 508.90125pt
 >
 File: ../../analysis/output/application/scatter.png Graphic file (type png)
 <use ../../analysis/output/application/scatter.png>
 Package pdftex.def Info: ../../analysis/output/application/scatter.png  used on
  input line 143.
 (pdftex.def)             Requested size: 344.005pt x 249.8763pt.
-No file note.bbl.
-
-Package natbib Warning: There were undefined citations.
-
-[2 <../../analysis/output/plot/500_8/hist.png>] [3 <../../analysis/output/plot/
-baseline/hist_red.png> <../../analysis/output/plot/500_8/hist_red.png> <../../a
-nalysis/output/application/scatter.png (PNG copy)>] (note.aux)
+(note.bbl) [2 <../../analysis/output/plot/500_8/hist.png>] [3 <../../analysis/o
+utput/plot/baseline/hist_red.png> <../../analysis/output/plot/500_8/hist_red.pn
+g> <../../analysis/output/application/scatter.png (PNG copy)>] (note.aux)
 Package rerunfilecheck Info: File `note.out' has not changed.
 (rerunfilecheck)             Checksum: 8AA5224B33C10A6EAA3468759CEC16A0;129.
  ) 
 Here is how much of TeX's memory you used:
- 12885 strings out of 478849
- 197754 string characters out of 2858232
- 524743 words of memory out of 3000000
- 30582 multiletter control sequences out of 15000+600000
- 416428 words of font info for 79 fonts, out of 8000000 for 9000
+ 12897 strings out of 478849
+ 198001 string characters out of 2858232
+ 524818 words of memory out of 3000000
+ 30590 multiletter control sequences out of 15000+600000
+ 416468 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,66p,431b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\C1CSJ01\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
@@ -650,9 +642,9 @@ eX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb>
-Output written on note.pdf (4 pages, 286205 bytes).
+Output written on note.pdf (4 pages, 289859 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
  34 words of extra memory for PDF output out of 10000 (max. 10000000)
 
