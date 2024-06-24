@@ -2,7 +2,7 @@ from lib.pyHelper import run_script
 
 def main():
 
-    run_script("lowdim_figures.m", "illustration", program= "matlab", fresh_run=1) 
+    #run_script("lowdim_figures.m", "illustration", program= "matlab", fresh_run=1) 
 
     run_script("simulate_data.py", "simulation")
     run_script("summary_stats.py", "simulation")
