@@ -10,3 +10,21 @@ On 2024/06/11 09:23:18, create_plots.R ran successfully in 0.063 minutes.
 
 On 2024/06/11 09:23:57, note.tex ran successfully in 0.662 minutes.
 
+On 2024/06/24 13:49:21, simulate_data.py ran for 0.003 minutes but failed. Error: b'Traceback (most recent call last):\r\n  File "\\\\rb.win.frb.org\\C1\\Accounts\\A-C\\C1SXB14\\My Documents\\GitHub\\example_template\\analysis\\source\\simulation\\simulate_data.py", line 2, in <module>\r\n    import pandas as pd\r\nModuleNotFoundError: No module named \'pandas\'\r\n'
+
+On 2024/06/24 13:49:21, summary_stats.py ran for 0.003 minutes but failed. Error: b'Traceback (most recent call last):\r\n  File "\\\\rb.win.frb.org\\C1\\Accounts\\A-C\\C1SXB14\\My Documents\\GitHub\\example_template\\analysis\\source\\simulation\\summary_stats.py", line 4, in <module>\r\n    import numpy as np\r\nModuleNotFoundError: No module named \'numpy\'\r\n'
+
+On 2024/06/24 13:49:31, auto.do ran successfully in 0.163 minutes.
+
+On 2024/06/24 14:13:52, simulate_data.py ran for 0.003 minutes but failed. Error: b'Traceback (most recent call last):\r\n  File "\\\\rb.win.frb.org\\C1\\Accounts\\A-C\\C1SXB14\\My Documents\\GitHub\\example_template\\analysis\\source\\simulation\\simulate_data.py", line 2, in <module>\r\n    import pandas as pd\r\nModuleNotFoundError: No module named \'pandas\'\r\n'
+
+On 2024/06/24 14:13:52, summary_stats.py ran for 0.004 minutes but failed. Error: b'Traceback (most recent call last):\r\n  File "\\\\rb.win.frb.org\\C1\\Accounts\\A-C\\C1SXB14\\My Documents\\GitHub\\example_template\\analysis\\source\\simulation\\summary_stats.py", line 4, in <module>\r\n    import numpy as np\r\nModuleNotFoundError: No module named \'numpy\'\r\n'
+
+On 2024/06/24 14:14:01, auto.do ran successfully in 0.147 minutes.
+
+On 2024/06/24 14:33:27, simulate_data.py ran for 0.003 minutes but failed. Error: b'Traceback (most recent call last):\r\n  File "\\\\rb.win.frb.org\\C1\\Accounts\\A-C\\C1SXB14\\My Documents\\GitHub\\example_template\\analysis\\source\\simulation\\simulate_data.py", line 2, in <module>\r\n    import pandas as pd\r\nModuleNotFoundError: No module named \'pandas\'\r\n'
+
+On 2024/06/24 14:33:27, summary_stats.py ran for 0.004 minutes but failed. Error: b'Traceback (most recent call last):\r\n  File "\\\\rb.win.frb.org\\C1\\Accounts\\A-C\\C1SXB14\\My Documents\\GitHub\\example_template\\analysis\\source\\simulation\\summary_stats.py", line 4, in <module>\r\n    import numpy as np\r\nModuleNotFoundError: No module named \'numpy\'\r\n'
+
+On 2024/06/24 14:33:35, auto.do ran successfully in 0.139 minutes.
+
