@@ -136,6 +136,46 @@ This is Figure \ref{fig:figsubplots} with both of the previous figures as subplo
 \end{figure}
 
 
+These are figures measuring the number of rolls by the current (total) sum over time. 
+\ref{fig:lln_plot_baseline}
+\begin{figure}[tbh!]
+\centering
+\includegraphics[width=.8\linewidth]{plot/baseline/lln_plot_baseline.png}
+\caption[]{Mean for the sum of two six-sided die. Figure based on \input{../../analysis/output/simulation/baseline/sample_size.txt}throws. Approaches value of \input{../../analysis/output/simulation/baseline/mean_sum.txt}}
+\label{fig:scatter_baseline}
+\end{figure}
+
+We also include a second simulation for an 8-sided dice. The corresponding scatterplot is depicted in Figure \ref{fig:lln_plot_500_8} 
+\begin{figure}[tbh!]
+\centering
+\includegraphics[width=.8\linewidth]{plot/500_8/lln_plot_500_8.png}
+\caption[]{Mean for the sum of two eight-sided die. Figure based on \input{../../analysis/output/simulation/500_8/sample_size.txt}throws. Approaches value of \input{../../analysis/output/simulation/500_8/mean_sum.txt}}
+\label{fig:scatter_8side}
+\end{figure}
+
+
+This is Figure \ref{fig:figsubplots} with both of the previous scatterplots as subplots. 
+
+\begin{figure}[tbh!]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.8\linewidth]{plot/baseline/lln_plot_baseline.png}  
+  \caption{Mean for the sum of two six-sided die. Figure based on \input{../../analysis/output/simulation/baseline/sample_size.txt}throws.}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.8\linewidth]{plot/500_8/lln_plot_500_8.png}  
+  \caption{Mean for the sum of two eight-sided die. Figure based on \input{../../analysis/output/simulation/500_8/sample_size.txt}throws.}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Combined plots of the simulations.}
+\label{fig:figsubplots}
+\end{figure}
+
+
 Finally, we add a scatter plot from an exemplary do file in Stata in Figure \ref{fig:auto_scatter}.
 
 \begin{figure}[tbh!]
@@ -144,6 +184,8 @@ Finally, we add a scatter plot from an exemplary do file in Stata in Figure \ref
 \caption[]{Stata example}
 \label{fig:auto_scatter}
 \end{figure}
+
+\newpage 
 
 %=======================================================
 \bibliographystyle{plainnat}
