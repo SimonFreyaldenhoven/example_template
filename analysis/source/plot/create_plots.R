@@ -1,17 +1,18 @@
 pacman::p_load(tidyverse, here)
 
-here::i_am("analysis.Rproj")
+here::i_am("base.Rproj")
 
 main <- function() {
   
-  design_path <- here("source", "lib", "designs_to_run.csv")
+  design_path <- here("analysis", "source", "lib", "designs_to_run.csv")
   
   # Import list of designs as a character vector by pulling the first column
   designs <- read_csv(design_path, show_col_types = FALSE, col_names = FALSE) %>% pull(1)
-  data_folder <- here("output", "simulation")
-  out_folder <- here("output", "plot")
+  data_folder <- here("analysis", "output", "simulation")
+  out_folder <- here("analysis", "output", "plot")
   
-  datastore_folder <- "C:/Users/C1JGB01/GitHub/example_template/datastore"
+  # importing datastore folder:
+  datastore_folder <- here("datastore")
   
   for(design in designs){
     data_path <- here(data_folder, design)
