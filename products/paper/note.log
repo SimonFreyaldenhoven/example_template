@@ -1,46 +1,44 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.7)  11 JUN 2024 09:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.20)  21 AUG 2024 13:18
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **./note.tex
 (note.tex
-LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01>
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+File: size12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count182
-\c@section=\count183
-\c@subsection=\count184
-\c@subsubsection=\count185
-\c@paragraph=\count186
-\c@subparagraph=\count187
-\c@figure=\count188
-\c@table=\count189
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\c@part=\count194
+\c@section=\count195
+\c@subsection=\count196
+\c@subsubsection=\count197
+\c@paragraph=\count198
+\c@subparagraph=\count199
+\c@figure=\count266
+\c@table=\count267
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
 )
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip49
-\bibsep=\skip50
+\bibhang=\skip51
+\bibsep=\skip52
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count190
+\c@NAT@ctr=\count268
 )
 (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2021/06/02 3.60 The Babel package
-
-(C:\Program Files\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2021/06/02 3.60 Babel common definitions
-\babel@savecnt=\count191
-\U@D=\dimen139
+Package: babel 2024/06/26 v24.7 The Babel package
+\babel@savecnt=\count269
+\U@D=\dimen142
 \l@unhyphenated=\language79
 
 (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-)
-\bbl@dirlevel=\count192
+\bbl@dirlevel=\count270
 
 *************************************
 * Local config file bblopts.cfg used
@@ -58,63 +56,77 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 ))
+(C:\Program Files\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2021/04/20 v2.17j AMS math features
-\@mathmargin=\skip51
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
+Package: amstext 2021/08/26 v2.01 AMS text
 
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
-\ex@=\dimen140
+\@emptytoks=\toks17
+\ex@=\dimen143
 ))
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen141
+\pmbraise@=\dimen144
 )
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count193
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count194
-\leftroot@=\count195
-LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count196
-\DOTSCASE@=\count197
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
-\big@size=\dimen142
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count198
-\c@MaxMatrixCols=\count199
-\dotsspace@=\muskip16
-\c@parentequation=\count266
-\dspbrk@lvl=\count267
-\tag@help=\toks17
-\row@=\count268
-\column@=\count269
-\maxfields@=\count270
-\andhelp@=\toks18
-\eqnshift@=\dimen143
-\alignsep@=\dimen144
-\tagshift@=\dimen145
-\tagwidth@=\dimen146
-\totwidth@=\dimen147
-\lineht@=\dimen148
-\@envbody=\toks19
-\multlinegap=\skip52
-\multlinetaggap=\skip53
-\mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
+\inf@bad=\count271
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count272
+\leftroot@=\count273
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count274
+\DOTSCASE@=\count275
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen145
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count276
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count277
+\dotsspace@=\muskip17
+\c@parentequation=\count278
+\dspbrk@lvl=\count279
+\tag@help=\toks18
+\row@=\count280
+\column@=\count281
+\maxfields@=\count282
+\andhelp@=\toks19
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
+\@envbody=\toks20
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 )
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -128,72 +140,72 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
 )
 (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
 (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 106.
 
 (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen149
-\Gin@req@width=\dimen150
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
 )
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/amscls\amsthm.sty
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks22
-\thm@bodyfont=\toks23
-\thm@headfont=\toks24
-\thm@notefont=\toks25
-\thm@headpunct=\toks26
-\thm@preskip=\skip54
-\thm@postskip=\skip55
-\thm@headsep=\skip56
-\dth@everypar=\toks27
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip56
+\thm@postskip=\skip57
+\thm@headsep=\skip58
+\dth@everypar=\toks28
 )
 (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.sty
 Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
 
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/grfext\grfext.sty
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.
 sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ))
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
 (C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -212,244 +224,257 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )))
 (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
 
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/auxhook\auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-\@linkdim=\dimen151
-\Hy@linkcounter=\count271
-\Hy@pagecounter=\count272
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestr
+ing.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count283
+) (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count284
+)
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen154
+\Hy@linkcounter=\count285
+\Hy@pagecounter=\count286
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
-File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
-nguages
-)
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/generic/etexcmds\etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count273
+\Hy@SavedSpaceFactor=\count287
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4192.
-Package hyperref Info: Link nesting OFF on input line 4197.
-Package hyperref Info: Hyper index ON on input line 4200.
-Package hyperref Info: Plain pages OFF on input line 4207.
-Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count274
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count288
 
 (C:\Program Files\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
+\Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen152
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen155
 
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count275
-\Field@Width=\dimen153
-\Fld@charsize=\dimen154
-Package hyperref Info: Hyper figures OFF on input line 6076.
-Package hyperref Info: Link nesting OFF on input line 6081.
-Package hyperref Info: Hyper index ON on input line 6084.
-Package hyperref Info: backreferencing OFF on input line 6091.
-Package hyperref Info: Link coloring OFF on input line 6096.
-Package hyperref Info: Link coloring with OCG OFF on input line 6101.
-Package hyperref Info: PDF/A mode OFF on input line 6106.
-LaTeX Info: Redefining \ref on input line 6146.
-LaTeX Info: Redefining \pageref on input line 6150.
+\Fld@menulength=\count289
+\Field@Width=\dimen156
+\Fld@charsize=\dimen157
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
  (C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count276
-\c@Item=\count277
-\c@Hfootnote=\count278
+\Hy@abspage=\count290
+\c@Item=\count291
+\c@Hfootnote=\count292
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+File: hpdftex.def 2024-07-10 v7.01j Hyperref driver for pdfTeX
 
 (C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
-e
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
 )
-\Fld@listcount=\count279
-\c@bookmark@seq@number=\count280
+\Fld@listcount=\count293
+\c@bookmark@seq@number=\count294
 
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilechec
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilechec
 k.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounte
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounte
 r.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
+85.
 )
-\Hy@SectionHShift=\skip57
+\Hy@SectionHShift=\skip59
 )
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/jknappen\mathrsfs.sty
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/jknappen\mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/mathtools\mathtools.sty
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
 
-
-! LaTeX Error: File `calc.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/mathtools\mhsetup.sty
+(C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count295
+\calc@Bcount=\count296
+\calc@Adimen=\dimen158
+\calc@Bdimen=\dimen159
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count297
+\calc@Cskip=\skip62
+)
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count281
-\l_MT_multwidth_dim=\dimen155
-\origjot=\skip58
-\l_MT_shortvdotswithinadjustabove_dim=\dimen156
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen157
-\l_MT_above_intertext_sep=\dimen158
-\l_MT_below_intertext_sep=\dimen159
-\l_MT_above_shortintertext_sep=\dimen160
-\l_MT_below_shortintertext_sep=\dimen161
-\xmathstrut@box=\box52
-\xmathstrut@dim=\dimen162
+\g_MT_multlinerow_int=\count298
+\l_MT_multwidth_dim=\dimen160
+\origjot=\skip63
+\l_MT_shortvdotswithinadjustabove_dim=\dimen161
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen162
+\l_MT_above_intertext_sep=\dimen163
+\l_MT_below_intertext_sep=\dimen164
+\l_MT_above_shortintertext_sep=\dimen165
+\l_MT_below_shortintertext_sep=\dimen166
+\xmathstrut@box=\box54
+\xmathstrut@dim=\dimen167
 )
 (C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count282
-\rotFPtop=\skip59
-\rotFPbot=\skip60
-\rot@float@box=\box53
-\rot@mess@toks=\toks28
+\c@r@tfl@t=\count299
+\rotFPtop=\skip64
+\rotFPbot=\skip65
+\rot@float@box=\box55
+\rot@mess@toks=\toks29
 )
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen163
-\captionmargin@=\dimen164
-\captionwidth=\dimen165
-\caption@tempdima=\dimen166
-\caption@indent=\dimen167
-\caption@parindent=\dimen168
-\caption@hangindent=\dimen169
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen168
+\captionmargin=\dimen169
+\caption@leftmargin=\dimen170
+\caption@rightmargin=\dimen171
+\caption@width=\dimen172
+\caption@indent=\dimen173
+\caption@parindent=\dimen174
+\caption@hangindent=\dimen175
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count283
-\c@continuedfloat=\count284
+\c@caption@flags=\count300
+\c@continuedfloat=\count301
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 )
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/caption\subcaption.sty
-Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count285
-\c@subtable=\count286
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count302
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count303
 )
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count287
-\Gm@cntv=\count288
-\c@Gm@tempcnt=\count289
-\Gm@bindingoffset=\dimen170
-\Gm@wd@mp=\dimen171
-\Gm@odd@mp=\dimen172
-\Gm@even@mp=\dimen173
-\Gm@layoutwidth=\dimen174
-\Gm@layoutheight=\dimen175
-\Gm@layouthoffset=\dimen176
-\Gm@layoutvoffset=\dimen177
-\Gm@dimlist=\toks29
+\Gm@cnth=\count304
+\Gm@cntv=\count305
+\c@Gm@tempcnt=\count306
+\Gm@bindingoffset=\dimen176
+\Gm@wd@mp=\dimen177
+\Gm@odd@mp=\dimen178
+\Gm@even@mp=\dimen179
+\Gm@layoutwidth=\dimen180
+\Gm@layoutheight=\dimen181
+\Gm@layouthoffset=\dimen182
+\Gm@layoutvoffset=\dimen183
+\Gm@dimlist=\toks30
 
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
 )
-
-! LaTeX Error: File `xr.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-
-! LaTeX Error: File `multirow.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-
-! LaTeX Error: File `enumitem.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
+(C:\Program Files\MiKTeX\tex/latex/tools\xr.sty
+Package: xr 2024-04-10 v6.00 eXternal References (DPC)
+)
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip66
+\multirow@cntb=\count307
+\multirow@dima=\skip67
+\bigstrutjot=\dimen184
+)
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip68
+\enit@outerparindent=\dimen185
+\enit@toks=\toks31
+\enit@inbox=\box56
+\enit@count@id=\count308
+\enitdp@description=\count309
+)
 (C:\Program Files\MiKTeX\tex/latex/graphics\color.sty
-Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+Package: color 2024/01/14 v1.3d Standard LaTeX Color (DPC)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
-)
-\c@theorem=\count290
-\c@fact=\count291
-\c@corollary=\count292
-\c@lemma=\count293
-\c@proposition=\count294
-\c@defn=\count295
-\c@step=\count296
-\c@remark=\count297
-\c@example-continued=\count298
-\c@example=\count299
-\c@assumption=\count300
-\c@cor=\count301
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+\c@theorem=\count310
+\c@fact=\count311
+\c@corollary=\count312
+\c@lemma=\count313
+\c@proposition=\count314
+\c@defn=\count315
+\c@step=\count316
+\c@remark=\count317
+\c@example-continued=\count318
+\c@example=\count319
+\c@assumption=\count320
+\c@cor=\count321
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count302
-\l__pdf_internal_box=\box54
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count322
+\l__pdf_internal_box=\box57
 ) (note.aux)
 \openout1 = `note.aux'.
 
@@ -474,34 +499,19 @@ LaTeX Font Info:    ... okay on input line 71.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count303
-\scratchdimen=\dimen178
-\scratchbox=\box55
-\nofMPsegments=\count304
-\nofMParguments=\count305
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count306
-\MPscratchDim=\dimen179
-\MPnumerator=\count307
-\makeMPintoPDFobject=\count308
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count323
+\scratchdimen=\dimen186
+\scratchbox=\box58
+\nofMPsegments=\count324
+\nofMParguments=\count325
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count326
+\MPscratchDim=\dimen187
+\MPnumerator=\count327
+\makeMPintoPDFobject=\count328
+\everyMPtoPDFconversion=\toks33
 )
 Package hyperref Info: Link coloring OFF on input line 71.
- (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestr
-ing.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count309
-)
-LaTeX Info: Redefining \ref on input line 71.
-LaTeX Info: Redefining \pageref on input line 71.
-LaTeX Info: Redefining \nameref on input line 71.
  (note.out) (note.out)
 \@outlinefile=\write3
 \openout3 = `note.out'.
@@ -557,11 +567,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 74
 .
 
-(C:\Users\C1CSJ01\AppData\Roaming\MiKTeX\tex/latex/jknappen\ursfs.fd
+(C:\Users\C1JGB01\AppData\Roaming\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
+)
 
-{C:/Users/C1CSJ01/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+[1
+
+{C:/Users/C1JGB01/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 (../../analysis/output/simulation/baseline/mean_sum.txt)
 <../../analysis/output/plot/baseline/hist.png, id=25, 433.62pt x 361.35pt>
 File: ../../analysis/output/plot/baseline/hist.png Graphic file (type png)
@@ -581,9 +593,11 @@ ut line 110.
 (pdftex.def)             Requested size: 344.005pt x 286.68742pt.
 
 (../../analysis/output/simulation/500_8/sample_size.txt)
-(../../analysis/output/simulation/500_8/sample_size.txt)pdfTeX warning (ext4): 
-destination with the same identifier (name{page.1}) has been already used, dupl
-icate ignored
+(../../analysis/output/simulation/500_8/sample_size.txt)
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.115 \newpage
@@ -592,8 +606,8 @@ l.115 \newpage
 File: ../../analysis/output/plot/baseline/hist_red.png Graphic file (type png)
 <use ../../analysis/output/plot/baseline/hist_red.png>
 Package pdftex.def Info: ../../analysis/output/plot/baseline/hist_red.png  used
- on input line 123.
-(pdftex.def)             Requested size: 172.00249pt x 143.33543pt.
+ on input line 122.
+(pdftex.def)             Requested size: 137.5999pt x 114.66394pt.
 
 (../../analysis/output/simulation/baseline/sample_size.txt)
 (../../analysis/output/simulation/baseline/sample_size.txt)
@@ -601,39 +615,105 @@ Package pdftex.def Info: ../../analysis/output/plot/baseline/hist_red.png  used
 File: ../../analysis/output/plot/500_8/hist_red.png Graphic file (type png)
 <use ../../analysis/output/plot/500_8/hist_red.png>
 Package pdftex.def Info: ../../analysis/output/plot/500_8/hist_red.png  used on
- input line 130.
+ input line 129.
+(pdftex.def)             Requested size: 137.5999pt x 114.66394pt.
+
+(../../analysis/output/simulation/500_8/sample_size.txt)
+(../../analysis/output/simulation/500_8/sample_size.txt)
+
+[2 <../../analysis/output/plot/500_8/hist.png> <../../analysis/output/plot/base
+line/hist_red.png> <../../analysis/output/plot/500_8/hist_red.png>]
+<../../analysis/output/plot/baseline/lln_plot_baseline.png, id=50, 433.62pt x 3
+61.35pt>
+File: ../../analysis/output/plot/baseline/lln_plot_baseline.png Graphic file (t
+ype png)
+<use ../../analysis/output/plot/baseline/lln_plot_baseline.png>
+Package pdftex.def Info: ../../analysis/output/plot/baseline/lln_plot_baseline.
+png  used on input line 142.
+(pdftex.def)             Requested size: 344.005pt x 286.68742pt.
+
+(../../analysis/output/simulation/baseline/sample_size.txt)
+(../../analysis/output/simulation/baseline/mean_sum.txt)
+(../../analysis/output/simulation/baseline/sample_size.txt)
+(../../analysis/output/simulation/baseline/mean_sum.txt)
+
+[3 <../../analysis/output/plot/baseline/lln_plot_baseline.png>]
+<../../analysis/output/plot/500_8/lln_plot_500_8.png, id=58, 433.62pt x 361.35p
+t>
+File: ../../analysis/output/plot/500_8/lln_plot_500_8.png Graphic file (type pn
+g)
+<use ../../analysis/output/plot/500_8/lln_plot_500_8.png>
+Package pdftex.def Info: ../../analysis/output/plot/500_8/lln_plot_500_8.png  u
+sed on input line 153.
+(pdftex.def)             Requested size: 344.005pt x 286.68742pt.
+
+(../../analysis/output/simulation/500_8/sample_size.txt)
+(../../analysis/output/simulation/500_8/mean_sum.txt)
+(../../analysis/output/simulation/500_8/sample_size.txt)
+(../../analysis/output/simulation/500_8/mean_sum.txt)
+
+[4 <../../analysis/output/plot/500_8/lln_plot_500_8.png>]
+File: ../../analysis/output/plot/baseline/lln_plot_baseline.png Graphic file (t
+ype png)
+<use ../../analysis/output/plot/baseline/lln_plot_baseline.png>
+Package pdftex.def Info: ../../analysis/output/plot/baseline/lln_plot_baseline.
+png  used on input line 165.
+(pdftex.def)             Requested size: 172.00249pt x 143.33543pt.
+
+(../../analysis/output/simulation/baseline/sample_size.txt)
+(../../analysis/output/simulation/baseline/sample_size.txt)
+File: ../../analysis/output/plot/500_8/lln_plot_500_8.png Graphic file (type pn
+g)
+<use ../../analysis/output/plot/500_8/lln_plot_500_8.png>
+Package pdftex.def Info: ../../analysis/output/plot/500_8/lln_plot_500_8.png  u
+sed on input line 172.
 (pdftex.def)             Requested size: 172.00249pt x 143.33543pt.
 
 (../../analysis/output/simulation/500_8/sample_size.txt)
 (../../analysis/output/simulation/500_8/sample_size.txt)
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 120--134
-[]$[]$ $[]$ 
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 162--176
+[][] [] 
  []
 
-<../../analysis/output/application/scatter.png, id=42, 700.6175pt x 508.90125pt
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--179
+
+ []
+
+<../../analysis/output/application/scatter.png, id=67, 700.6175pt x 508.90125pt
 >
 File: ../../analysis/output/application/scatter.png Graphic file (type png)
 <use ../../analysis/output/application/scatter.png>
 Package pdftex.def Info: ../../analysis/output/application/scatter.png  used on
- input line 143.
-(pdftex.def)             Requested size: 344.005pt x 249.8763pt.
-(note.bbl) [2 <../../analysis/output/plot/500_8/hist.png>] [3 <../../analysis/o
-utput/plot/baseline/hist_red.png> <../../analysis/output/plot/500_8/hist_red.pn
-g> <../../analysis/output/application/scatter.png (PNG copy)>] (note.aux)
+ input line 183.
+(pdftex.def)             Requested size: 258.00539pt x 187.40527pt.
+
+
+[5 <../../analysis/output/application/scatter.png (PNG copy)>] (note.bbl)
+
+[6] (note.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `note.out' has not changed.
 (rerunfilecheck)             Checksum: 8AA5224B33C10A6EAA3468759CEC16A0;129.
  ) 
 Here is how much of TeX's memory you used:
- 12897 strings out of 478849
- 198001 string characters out of 2858232
- 524818 words of memory out of 3000000
- 30590 multiletter control sequences out of 15000+600000
- 416468 words of font info for 79 fonts, out of 8000000 for 9000
+ 14688 strings out of 473904
+ 240652 string characters out of 5736409
+ 1930908 words of memory out of 5000000
+ 37284 multiletter control sequences out of 15000+600000
+ 566266 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,66p,431b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\C1CSJ01\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
-rm1200.pk> <C:\Users\C1CSJ01\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\tcrm0700.pk> <C:\Users\C1CSJ01\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+ 63i,11n,67p,543b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\C1JGB01\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
+rm1200.pk> <C:\Users\C1JGB01\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\tcrm0700.pk> <C:\Users\C1JGB01\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
 pen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pf
 b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Progr
@@ -642,9 +722,9 @@ eX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb>
-Output written on note.pdf (4 pages, 289859 bytes).
+Output written on note.pdf (7 pages, 375115 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 34 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 44 words of extra memory for PDF output out of 10000 (max. 10000000)
 
