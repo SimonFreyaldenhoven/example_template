@@ -1,6 +1,6 @@
 sysuse auto, clear
 set scheme s1color
-global dir_graph "../output/application"
+global dir_graph "output/application"
 
 
 scatter price mpg

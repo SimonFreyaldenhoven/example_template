@@ -7,11 +7,11 @@ random.seed(19095)
 
 #Script to be run
 def main():
-    outpath='../../datastore/' 
-    designpath='simulation/designs/'
+    outpath='../datastore/' 
+    designpath='source/simulation/designs/'
 
     sim_designs = []
-    with open('lib/designs_to_run.csv', newline='') as inputfile:
+    with open('source/lib/designs_to_run.csv', newline='') as inputfile:
         for row in csv.reader(inputfile):
             sim_designs.append(row[0])
 

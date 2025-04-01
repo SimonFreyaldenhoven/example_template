@@ -1,0 +1,89 @@
+import yaml
+import os
+import sys
+import psutil
+import csv
+from snakemake.io import *
+
+print("Running from " + os.getcwd())
+
+absolute_path = os.getcwd()
+
+# Grab path to Stata
+if os.path.isfile('source\lib\path_to_stata.txt'):
+    with open('source\lib\path_to_stata.txt') as f:
+        path_to_stata = '"' + f.read() + '"'
+
+# Read in sim_designs
+designs_to_run = 'source/lib/designs_to_run.csv'
+sim_designs = []
+with open(designs_to_run, newline='') as inputfile:
+    for row in csv.reader(inputfile):
+        sim_designs.append(row[0])
+
+# Define files
+outpath='../datastore/' 
+designpath='source/simulation/designs/'
+
+design_files = expand(designpath + "{design}.csv", design = sim_designs)
+data_files = expand(outpath + "{design}.csv", design = sim_designs)
+
+plot_out = 'output/plot/'
+plot_stems = ['hist', 'hist_red', 'lln_plot'] 
+plot_files = expand(plot_out + '{design}/{file}.png', design = sim_designs, file = plot_stems)
+
+sum_stats_out = 'output/simulation/'
+sum_stats_stems = ['mean_sum.txt', 'sample_size.txt', 'freq_table.csv']
+sum_stats_files = expand(sum_stats_out + '{design}/{file}', design = sim_designs, file = sum_stats_stems)
+
+product_folder = '../products/paper/'  
+product_stems = ['note.tex', 'example.bib'] 
+product_files = expand(product_folder + '{file}', file = product_stems)
+
+matlab_out = 'output/illustration/'
+matlab_files = expand(matlab_out + '{file}.{ext}', file = ['2d', '3d'], ext = ['png', 'eps'])
+
+# Define rules 
+rule compile_note:
+  input: 
+      data = product_files
+  output: product_folder + 'note.pdf'
+  shell: f'latexmk -pdf -cd -f {product_folder}/note.tex'
+  
+rule lowdim_figures:
+  input: 
+      cmd = absolute_path + '/source/illustration/lowdim_figures.m'
+  output: matlab_files
+  shell: "matlab -batch run('{input.cmd}')"
+  
+rule simulate_data:
+  input: 
+      data = design_files,
+      cmd = 'source/simulation/simulate_data.py'
+  output: data_files
+  shell: 'python {input.cmd}'
+  
+rule summary_stats:
+  input:
+      data = data_files,
+      cmd = 'source/simulation/summary_stats.py'
+  output: sum_stats_files
+  shell: 'python {input.cmd}'
+                  
+rule auto:
+  input:
+      cmd = os.path.join(absolute_path, 'source\\application\\auto.do')
+  output: 'output/application/scatter.png'
+  shell: path_to_stata + ' do {input.cmd}'
+  
+rule create_plots:
+  input:
+      data = data_files + sum_stats_files,
+      cmd = 'source/plot/create_plots.R'
+  output: plot_files
+  shell: 'Rscript {input.cmd}'
+
+  
+ 
+  
+

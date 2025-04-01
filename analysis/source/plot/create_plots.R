@@ -26,7 +26,7 @@ main <- function() {
     plot_hist(data_path, out_path, "sum", "freq_table.csv", "hist.png", "blue")
     plot_hist(data_path, out_path, "sum", "freq_table.csv", "hist_red.png", "red")
     
-    illustrate_lln(raw_data_path, out_path, "sum", paste0("lln_plot_", design, ".png"))
+    illustrate_lln(raw_data_path, out_path, "sum", paste0("lln_plot", ".png"))
   }
 }
 
