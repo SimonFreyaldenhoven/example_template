@@ -34,9 +34,9 @@ h=fill([D(end),1,1,D(end)],[-box_height,-box_height,box_height,box_height],...
     [0.1,0.1,0.1],'LineStyle','none');
 h.FaceAlpha=0.3;
 hold off
-print('H:\Resources\Simon_Git_Test\analysis\output\illustration\2d', '-depsc', '-r1000')
-print('H:\Resources\Simon_Git_Test\analysis\output\illustration\2d', '-dpng', '-r1000')
-fprintf('2d both printed?\n')
+print('../../output/illustration/2d', '-depsc', '-r1000')
+print('../../output/illustration/2d', '-dpng', '-r1000')
+fprintf('2D both printed?\n')
 close
 
 
@@ -67,9 +67,9 @@ line('XData',orig(1)+[0 dir(1)],'YData',orig(2)+[0 dir(2)],'ZData',...
 [intersect,~,~,~,xcoor] = TriangleRayIntersection(orig, dir, ...
   vert1, vert2, vert3, 'lineType' , 'line');
 scatter3(xcoor(intersect,1), xcoor(intersect,2), xcoor(intersect,3), 100, 'r', 'o', 'filled')
-print('H:\Resources\Simon_Git_Test\analysis\output\illustration\3d', '-depsc', '-r1000')
-print('H:\Resources\Simon_Git_Test\analysis\output\illustration\3d', '-dpng', '-r1000')
-fprintf('2d both printed?\n')
+print('../../output/illustration/3d', '-depsc', '-r1000')
+print('../../output/illustration/3d', '-dpng', '-r1000')
+fprintf('3D both printed?\n')
 close
 
 

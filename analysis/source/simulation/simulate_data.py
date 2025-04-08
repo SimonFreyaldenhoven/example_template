@@ -7,11 +7,15 @@ random.seed(19095)
 
 #Script to be run
 def main():
-    outpath='../../datastore/' 
-    designpath='simulation/designs/'
+    outpath='datastore/' 
+    designpath='analysis/source/simulation/designs/'
+
+    os.makedirs('datastore', exist_ok=True)
+
+    print(f'cwd: {os.getcwd()}')
 
     sim_designs = []
-    with open('lib/designs_to_run.csv', newline='') as inputfile:
+    with open('analysis/source/lib/designs_to_run.csv', newline='') as inputfile:
         for row in csv.reader(inputfile):
             sim_designs.append(row[0])
 
@@ -22,6 +26,8 @@ def main():
 #Main function
 def create_data(designpath, outpath, cur_design):
     
+    print('datastore?: ' + designpath + cur_design + '.csv')
+
     param = pd.read_csv(designpath + cur_design + '.csv', 
                         header=None, index_col=0).squeeze("columns").to_dict()
     data = []
@@ -34,6 +40,9 @@ def create_data(designpath, outpath, cur_design):
         data.append(cur_roll)
 
     df= pd.DataFrame(data)
+
+    print('df.to_csv?: ' + outpath + cur_design + '.csv')
+
     df.to_csv(outpath + cur_design + '.csv', index=False)    
  
 ### Execute
