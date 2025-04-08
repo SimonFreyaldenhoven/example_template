@@ -86,6 +86,11 @@ returns
 """
 def write_time_log(elapsed, script, process, log_name = "time_log.txt", absolute_path = os.getcwd(), fresh_run=0):
 
+    # # sam comment
+    # print(f'os.getcwd(): {os.getcwd()}')
+    # print(f'Path(absolute_path): {Path(absolute_path)}')
+    # print(f'Path(absolute_path).parents[0]: {Path(absolute_path).parents[0]}')
+
     now = datetime.now()
     now_str = now.strftime("%Y/%m/%d %H:%M:%S") 
 
@@ -101,7 +106,14 @@ def write_time_log(elapsed, script, process, log_name = "time_log.txt", absolute
     else:
         message = f"{script} ran successfully in {elapsed} minutes."
 
-    with open(log_path, opt) as log:
+    # # sam comment
+    # print(f'log_path: {log_path}')
+    # print(f'type(log_path): {type(log_path)}')
+
+    sam_log_path = Path('H:\\Resources\\Simon_Git_Test\\analysis\\output\\time_log.txt')
+
+    # with open(log_path, opt) as log:
+    with open(sam_log_path, opt) as log:
         log.write(f"On {now_str}, {message}\n\n")
 
     return None

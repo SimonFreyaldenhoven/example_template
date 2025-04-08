@@ -1,10 +1,6 @@
-On 2024/08/21 10:47:21, lowdim_figures.m ran successfully in 0.286 minutes.
+On 2025/04/08 12:55:39, lowdim_figures.m ran for 0.59 minutes but failed. Error: b"{\x08Error using run (line 76)\r\nRUN cannot execute the file 'H:\\Resources\\Simon_Git_Test\\analysis\\\\output\\\\illustration\\lowdim_figures.m'. RUN requires a valid MATLAB script\r\n}\x08 \r\nERROR: MATLAB error Exit Status: 0x00000001\r\n"
 
-On 2024/08/21 10:47:22, simulate_data.py ran successfully in 0.008 minutes.
+On 2025/04/08 12:55:39, simulate_data.py ran for 0.001 minutes but failed. Error: b"python: can't open file 'H:\\\\Resources\\\\Simon_Git_Test\\\\simulation\\\\simulate_data.py': [Errno 2] No such file or directory\r\n"
 
-On 2024/08/21 10:47:22, summary_stats.py ran successfully in 0.008 minutes.
-
-On 2024/08/21 10:47:24, create_plots.R ran successfully in 0.041 minutes.
-
-On 2024/08/21 10:47:32, note.tex ran successfully in 0.12 minutes.
+On 2025/04/08 12:55:39, summary_stats.py ran for 0.001 minutes but failed. Error: b"python: can't open file 'H:\\\\Resources\\\\Simon_Git_Test\\\\simulation\\\\summary_stats.py': [Errno 2] No such file or directory\r\n"
 
