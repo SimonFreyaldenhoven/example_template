@@ -21,6 +21,8 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python", 
 
     full_path = os.path.join(absolute_path, folder, script)
     products_loc=os.path.join(Path(absolute_path).parent.parent, 'products')
+
+    print(f'full_path: {full_path}')
     
     if program == "Rscript" or program == "python": 
         command = [program, full_path]
@@ -44,6 +46,9 @@ def run_script(script, folder, absolute_path = os.getcwd(), program = "python", 
 
 
     if program != "pdflatex":
+
+        print(f'command: {command}')
+
         tic = timer()
         p = subprocess.run(command, capture_output = True) 
         toc = timer()

@@ -2,15 +2,15 @@ from lib.pyHelper import run_script
 
 def main():
 
-    # # run_script("lowdim_figures.m", "illustration", program= "matlab", fresh_run=1) 
-    # run_script("lowdim_figures.m", "analysis//output//illustration", program= "matlab", fresh_run=1)
+    # run_script("lowdim_figures.m", "illustration", program= "matlab", fresh_run=1) 
+    # # run_script("lowdim_figures.m", "analysis//output//illustration", program= "matlab", fresh_run=1)
 
-    run_script("simulate_data.py", "analysis//source//simulation")
-    run_script("summary_stats.py", "analysis//source//simulation")
+    # run_script("simulate_data.py", "simulation")
+    # run_script("summary_stats.py", "simulation")
 
     # run_script("auto.do", "application", program = "stata")
     
-    # run_script("create_plots.R", "plot", program = "Rscript")
+    run_script("create_plots.R", "plot", program = "Rscript")
     
     # run_script("note.tex", "paper", program = "pdflatex")
     

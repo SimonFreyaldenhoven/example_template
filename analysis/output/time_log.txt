@@ -1,4 +1,8 @@
-On 2025/04/08 16:08:04, simulate_data.py ran successfully in 0.01 minutes.
+On 2025/04/09 13:24:20, simulate_data.py ran successfully in 0.05 minutes.
 
-On 2025/04/08 16:08:05, summary_stats.py ran successfully in 0.01 minutes.
+On 2025/04/09 13:24:20, summary_stats.py ran successfully in 0.012 minutes.
+
+On 2025/04/09 13:26:16, simulate_data.py ran successfully in 0.011 minutes.
+
+On 2025/04/09 13:26:16, summary_stats.py ran successfully in 0.011 minutes.
 
