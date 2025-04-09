@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.9)  9 APR 2025 15:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.9)  9 APR 2025 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -635,8 +635,10 @@ png  used on input line 142.
 
 (../../analysis/output/simulation/baseline/sample_size.txt)
 (../../analysis/output/simulation/baseline/mean_sum.txt)
+(../../analysis/output/simulation/baseline/median_sum.txt)
 (../../analysis/output/simulation/baseline/sample_size.txt)
 (../../analysis/output/simulation/baseline/mean_sum.txt)
+(../../analysis/output/simulation/baseline/median_sum.txt)
 
 [3 <../../analysis/output/plot/baseline/lln_plot_baseline.png>]
 <../../analysis/output/plot/500_8/lln_plot_500_8.png, id=58, 433.62pt x 361.35p
@@ -650,8 +652,10 @@ sed on input line 153.
 
 (../../analysis/output/simulation/500_8/sample_size.txt)
 (../../analysis/output/simulation/500_8/mean_sum.txt)
+(../../analysis/output/simulation/500_8/median_sum.txt)
 (../../analysis/output/simulation/500_8/sample_size.txt)
 (../../analysis/output/simulation/500_8/mean_sum.txt)
+(../../analysis/output/simulation/500_8/median_sum.txt)
 
 [4 <../../analysis/output/plot/500_8/lln_plot_500_8.png>]
 File: ../../analysis/output/plot/baseline/lln_plot_baseline.png Graphic file (t
@@ -701,10 +705,10 @@ Package rerunfilecheck Info: File `note.out' has not changed.
 (rerunfilecheck)             Checksum: 8AA5224B33C10A6EAA3468759CEC16A0;129.
  ) 
 Here is how much of TeX's memory you used:
- 14700 strings out of 473523
- 240583 string characters out of 5724692
+ 14715 strings out of 473523
+ 241494 string characters out of 5724692
  644981 words of memory out of 5000000
- 37656 multiletter control sequences out of 15000+600000
+ 37662 multiletter control sequences out of 15000+600000
  567034 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,67p,543b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -719,7 +723,7 @@ eX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb>
-Output written on note.pdf (7 pages, 375174 bytes).
+Output written on note.pdf (7 pages, 375217 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
