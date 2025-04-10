@@ -39,4 +39,3 @@ def create_data(designpath, outpath, cur_design):
 ### Execute
 if __name__=="__main__":
     main()
-
