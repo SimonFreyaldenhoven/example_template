@@ -9,8 +9,6 @@ import csv
 
 #Script to be run
 def main():
-
-    print(os.getcwd())
     outpath='../output/simulation/' 
     datapath='../../datastore/'
 
@@ -41,7 +39,6 @@ def create_freq_table_sum(cur_data, outpath, cur_design):
 def save_mean_samplesize(cur_data, outpath, cur_design):
     
     mean_sum = np.mean(cur_data['first die'] + cur_data['second die'])
-
     median_sum = np.median(cur_data['first die'] + cur_data['second die'])
     
     with open(f'{outpath}/{cur_design}/mean_sum.txt', 'w') as f:
