@@ -1,10 +1,10 @@
-On 2025/04/10 08:46:38, lowdim_figures.m ran successfully in 0.296 minutes.
+On 2025/04/10 09:08:20, lowdim_figures.m ran successfully in 0.27 minutes.
 
-On 2025/04/10 08:46:39, simulate_data.py ran successfully in 0.01 minutes.
+On 2025/04/10 09:08:20, simulate_data.py ran successfully in 0.01 minutes.
 
-On 2025/04/10 08:46:39, summary_stats.py ran successfully in 0.01 minutes.
+On 2025/04/10 09:08:21, summary_stats.py ran successfully in 0.011 minutes.
 
-On 2025/04/10 08:46:42, create_plots.R ran successfully in 0.043 minutes.
+On 2025/04/10 09:08:24, create_plots.R ran successfully in 0.042 minutes.
 
-On 2025/04/10 08:46:50, note.tex ran successfully in 0.138 minutes.
+On 2025/04/10 09:08:32, note.tex ran successfully in 0.136 minutes.
 
